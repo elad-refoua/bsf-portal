@@ -702,3 +702,5 @@ if
 - 16:47 Edit: SKILL.md
 - 17:01 Edit: Accessibility.tsx
 - 17:01 Edit: PROJECT_TIMELINE.md
+- 17:02 Run: cd "C:/Users/user/Desktop/projects/BSF portal"
+- 17:03 Run: JS=$(grep -oE '/bsf-portal/assets/index-[^"]*\.js'
