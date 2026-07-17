@@ -693,3 +693,5 @@ if
 - 15:13 Edit: router.tsx
 - 15:13 Edit: Footer.tsx
 - 15:14 Edit: Layout.tsx
+- 15:14 Run: cd "C:/Users/user/Desktop/projects/BSF portal"
+- 15:15 Run: JS=$(grep -oE '/bsf-portal/assets/index-[^"]*\.js'
