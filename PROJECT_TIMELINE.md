@@ -66,6 +66,21 @@ practice tools by module. **Therapist area (gated by access code):** clean full 
 - Add a section about the **actual research** (the BSF–UC Berkeley study) with **results**, once
   available. The site today is scoped to the *treatment* only (the protocol was developed by the
   ARLAB); a research/results section would be a separate future addition.
+- **"Dr. Carol" training simulation for therapists.** Carol is a MENTI **Stage-1 Socratic training
+  bot** that teaches therapists/students to *identify the needs framework (Dweck)* in case material —
+  the "needs" member of the NMS triad (Carol = needs, Jeff/Modes = modes, Daphna = stances). It's a
+  conceptual *tutor* (not a patient simulation) and does **not** run on Cesura. Directly aligned with
+  CATAN's Dweck needs vocabulary → a natural addition to the therapist area. Canonical source to
+  build/confirm: the **`socratic-training-bot`** skill + the **menti-agent** (confirm details; the
+  consult was rate-limited on 2026-07-17).
+- **Realistic per-module practice simulations for therapists** — a patient-character simulation for
+  each of the 6 modules, to practice that module's technique (Triangle, Closeness Circles, WOOP,
+  chair-work, etc.). Build via the **`simulation-architect`** (Clinical Prompt Engineering) deployed
+  on **Cesura** (`cesura` skill). Note the patient-data / safety rules.
+- **Per-module patient Q&A bots** — a bot per need-module that answers patients' questions about that
+  module's ideas/tools. Build via the **`therapeutic-bot`** (CPE) discipline. Keep it psychoeducational
+  and safe (no clinical advice / crisis handling boundaries), and decide hosting (Cesura vs embedded).
+  Confirm approach with the **menti-agent**.
 
 ## Open items waiting on a human (Elad)
 - **Content review (required for LOCK):** read the extracted HE/EN content (esp. `translated`/
