@@ -25,9 +25,12 @@ export default function Footer() {
           <p>{t(UI.misc.madeBy)}</p>
           <p className="text-ink-700">{t(UI.misc.citation)}</p>
           <p className="text-ink-700">{t(UI.misc.builtBy)}</p>
-          <p>
+          <p className="flex flex-wrap gap-x-4 gap-y-1">
             <Link to="/accessibility" className="font-medium text-brand-700 underline hover:text-brand-600">
               {t(UI.misc.accessibility)}
+            </Link>
+            <Link to="/privacy" className="font-medium text-brand-700 underline hover:text-brand-600">
+              {t(UI.misc.privacyStatement)}
             </Link>
           </p>
         </div>

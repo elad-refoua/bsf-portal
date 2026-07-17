@@ -74,6 +74,10 @@ export const UI = {
       he: "הצהרת נגישות",
       en: "Accessibility statement",
     } as Bilingual,
+    privacyStatement: {
+      he: "פרטיות ואחסון מקומי",
+      en: "Privacy & local storage",
+    } as Bilingual,
     citation: {
       he: "מבוסס על מודל הצרכים של Dweck (2017).",
       en: "Based on Dweck's (2017) needs model.",

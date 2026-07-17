@@ -16,6 +16,7 @@ const PAGE_TITLES: Record<string, { he: string; en: string }> = {
   "my-space": UI.nav.myspace,
   therapist: UI.nav.therapist,
   accessibility: UI.misc.accessibility,
+  privacy: UI.misc.privacyStatement,
 };
 
 export default function Layout() {

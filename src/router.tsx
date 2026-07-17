@@ -13,6 +13,7 @@ const MySpace = lazy(() => import("@/pages/MySpace"));
 const Calm = lazy(() => import("@/pages/Calm"));
 const Therapist = lazy(() => import("@/pages/Therapist"));
 const Accessibility = lazy(() => import("@/pages/Accessibility"));
+const Privacy = lazy(() => import("@/pages/Privacy"));
 const NotFound = lazy(() => import("@/pages/NotFound"));
 
 export const router = createHashRouter([
@@ -29,6 +30,7 @@ export const router = createHashRouter([
       { path: "calm", element: <Calm /> },
       { path: "therapist", element: <Therapist /> },
       { path: "accessibility", element: <Accessibility /> },
+      { path: "privacy", element: <Privacy /> },
       { path: "*", element: <NotFound /> },
     ],
   },
