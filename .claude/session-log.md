@@ -596,3 +596,5 @@ if
 - 13:08 Run: cd "C:/Users/user/Desktop/projects/BSF portal"
 - 13:10 Edit: ui-strings.ts
 - 13:10 Edit: Footer.tsx
+- 13:11 Run: cd "C:/Users/user/Desktop/projects/BSF portal"
+- 13:11 Run: cd "C:/Users/user/Desktop/projects/BSF portal/dist
