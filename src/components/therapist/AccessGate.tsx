@@ -112,7 +112,7 @@ export default function AccessGate({ onUnlock }: { onUnlock: () => void }) {
             </div>
 
             {error && (
-              <p id={errorId} role="alert" className="mt-3 flex items-center gap-2 text-sm text-need-belonging">
+              <p id={errorId} role="alert" className="mt-3 flex items-center gap-2 text-sm text-red-700">
                 <AlertCircle className="h-4 w-4 shrink-0" aria-hidden />
                 {t({
                   he: "הקוד אינו נכון. אנא נסו שוב, או פנו לצוות המחקר.",

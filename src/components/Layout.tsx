@@ -6,14 +6,34 @@ import { scrollToId } from "@/lib/scroll";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
+/** First-path-segment → page title, so each route has its own <title> (WCAG 2.4.2). */
+const PAGE_TITLES: Record<string, { he: string; en: string }> = {
+  "": { he: "בית", en: "Home" },
+  understand: UI.nav.understand,
+  needs: UI.nav.needs,
+  practice: UI.nav.practice,
+  calm: UI.nav.calm,
+  "my-space": UI.nav.myspace,
+  therapist: UI.nav.therapist,
+  accessibility: UI.misc.accessibility,
+};
+
 export default function Layout() {
-  const { t } = useLang();
+  const { t, lang } = useLang();
   const { pathname } = useLocation();
 
   // Always start a new page at the top (guards against leftover scroll on route change).
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [pathname]);
+
+  // Give each route a descriptive document title (WCAG 2.4.2 "Page Titled").
+  useEffect(() => {
+    const seg = pathname.split("/")[1] ?? "";
+    const page = PAGE_TITLES[seg];
+    const brand = "CATAN";
+    document.title = page ? `${t(page)} · ${brand}` : brand;
+  }, [pathname, lang, t]);
   return (
     <div className="flex min-h-screen flex-col">
       <button

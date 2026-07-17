@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Plus, X } from "lucide-react";
 import { useLang } from "@/i18n/LanguageContext";
+import { darken } from "@/lib/needs-meta";
 import type { ToolBodyProps } from "@/tools/bodies/types";
 
 interface Person {
@@ -20,6 +21,7 @@ export default function ClosenessCirclesBody({ data, setData, accentHex }: ToolB
   const { t, lang } = useLang();
   const people = (data.people as Person[] | undefined) ?? [];
   const [name, setName] = useState("");
+  const strong = darken(accentHex); // text-safe accent for white-text backgrounds
 
   const update = (next: Person[]) => setData({ ...data, people: next });
 
@@ -54,7 +56,7 @@ export default function ClosenessCirclesBody({ data, setData, accentHex }: ToolB
           {[...RINGS].reverse().map((ring, i) => (
             <circle key={i} cx={c} cy={c} r={ring.r} fill={`${accentHex}0d`} stroke={`${accentHex}66`} strokeWidth={1.5} />
           ))}
-          <circle cx={c} cy={c} r={16} fill={accentHex} />
+          <circle cx={c} cy={c} r={16} fill={strong} />
           <text x={c} y={c + 4} textAnchor="middle" className="fill-white" fontSize="11" fontWeight="700">
             {t({ he: "אני", en: "Me" })}
           </text>
@@ -105,7 +107,7 @@ export default function ClosenessCirclesBody({ data, setData, accentHex }: ToolB
                     className={`rounded-full px-2.5 py-1 text-xs font-medium transition ${
                       p.ring === ri ? "text-white" : "bg-sand-100 text-ink-700"
                     }`}
-                    style={p.ring === ri ? { backgroundColor: accentHex } : undefined}
+                    style={p.ring === ri ? { backgroundColor: strong } : undefined}
                   >
                     {t(ring.label)}
                   </button>

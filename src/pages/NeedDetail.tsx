@@ -24,7 +24,7 @@ export default function NeedDetail() {
       {/* Hero */}
       <div style={{ backgroundColor: `${meta.hex}14` }}>
         <Container className="py-14">
-          <Link to="/needs" className="mb-6 inline-flex items-center gap-1 text-sm text-ink-500 hover:text-ink-700">
+          <Link to="/needs" className="mb-6 inline-flex items-center gap-1 text-sm text-ink-700 hover:text-brand-700">
             <Arrow className="h-4 w-4 rotate-180" aria-hidden /> {t(UI.nav.needs)}
           </Link>
           <div className="flex items-center justify-between gap-6">

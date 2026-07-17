@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Play, Pause } from "lucide-react";
 import { useLang } from "@/i18n/LanguageContext";
+import { darken } from "@/lib/needs-meta";
 import type { BilingualBlocks } from "@/lib/types";
 
 /** Pure stage-direction lines (e.g. "[after one minute – bell]") aren't shown to the patient. */
@@ -46,7 +47,7 @@ export default function MeditationPlayer({
         <button
           onClick={() => setBreathing((b) => !b)}
           className="mt-6 inline-flex min-h-[44px] items-center gap-2 rounded-full px-6 py-2.5 font-medium text-white"
-          style={{ backgroundColor: accentHex }}
+          style={{ backgroundColor: darken(accentHex) }}
         >
           {breathing ? <Pause className="h-5 w-5" /> : <Play className="h-5 w-5" />}
           {breathing ? t({ he: "עצירה", en: "Pause" }) : t({ he: "התחלת נשימה", en: "Start breathing" })}
@@ -77,7 +78,12 @@ export default function MeditationPlayer({
           <h3 className="mb-3 font-heading text-lg font-bold text-ink-900">
             {t({ he: "הטקסט המלא", en: "The full script" })}
           </h3>
-          <div className="max-h-[28rem] space-y-4 overflow-y-auto rounded-xl2 border border-sand-200 bg-white p-6 text-lg leading-relaxed text-ink-700">
+          <div
+            tabIndex={0}
+            role="region"
+            aria-label={t({ he: "טקסט מדיטציית ההר", en: "Mountain meditation script" })}
+            className="max-h-[28rem] space-y-4 overflow-y-auto rounded-xl2 border border-sand-200 bg-white p-6 text-lg leading-relaxed text-ink-700"
+          >
             {scriptParas.map((p, i) => (
               <p key={i}>{p}</p>
             ))}

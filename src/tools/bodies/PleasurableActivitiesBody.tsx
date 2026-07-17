@@ -47,6 +47,7 @@ export default function PleasurableActivitiesBody({ data, setData, accentHex }: 
                     rows={2}
                     value={grid[`${r}_${c}`] ?? ""}
                     onChange={(e) => set(r, c, e.target.value)}
+                    aria-label={`${t(d)} — ${t(STATUSES[c])}`}
                     className="w-full resize-y rounded-lg border border-sand-200 bg-sand-50 p-2 text-sm focus:border-brand-500 focus:bg-white"
                   />
                 </td>

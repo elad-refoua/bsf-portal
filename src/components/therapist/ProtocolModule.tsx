@@ -1,7 +1,7 @@
 import { ChevronDown } from "lucide-react";
 import { useLang } from "@/i18n/LanguageContext";
 import { UI } from "@/lib/ui-strings";
-import { NEEDS_META } from "@/lib/needs-meta";
+import { NEEDS_META, darken } from "@/lib/needs-meta";
 import type { Bilingual, BilingualBlocks, NeedContent, NeedId, ProtocolSegment } from "@/lib/types";
 import { Prose } from "@/components/ui/primitives";
 
@@ -11,7 +11,7 @@ function MinutesBadge({ minutes, hex }: { minutes: number; hex: string }) {
   return (
     <span
       className="inline-flex items-center gap-1 rounded-full border px-3 py-1 text-sm font-medium"
-      style={{ backgroundColor: `${hex}1a`, color: hex, borderColor: `${hex}40` }}
+      style={{ backgroundColor: `${hex}1a`, color: darken(hex), borderColor: `${hex}40` }}
     >
       {minutes} {t(UI.misc.minutes)}
     </span>

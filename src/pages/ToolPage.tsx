@@ -2,7 +2,7 @@ import { useParams, Link, Navigate } from "react-router-dom";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 import { useLang } from "@/i18n/LanguageContext";
 import { UI } from "@/lib/ui-strings";
-import { NEEDS_META } from "@/lib/needs-meta";
+import { NEEDS_META, needTextHex } from "@/lib/needs-meta";
 import { toolById, needsForTool, needById } from "@/content";
 import { Section, Container } from "@/components/ui/primitives";
 import ToolRenderer from "@/tools/ToolRenderer";
@@ -21,7 +21,7 @@ export default function ToolPage() {
     <>
       <div style={{ backgroundColor: `${accentHex}12` }}>
         <Container className="py-10">
-          <Link to="/practice" className="mb-4 inline-flex items-center gap-1 text-sm text-ink-500 hover:text-ink-700">
+          <Link to="/practice" className="mb-4 inline-flex items-center gap-1 text-sm text-ink-700 hover:text-brand-700">
             <Arrow className="h-4 w-4 rotate-180" aria-hidden /> {t(UI.nav.practice)}
           </Link>
           <h1 className="font-heading text-3xl font-bold text-ink-900 sm:text-4xl">{t(tool.name)}</h1>
@@ -34,7 +34,7 @@ export default function ToolPage() {
                   key={nid}
                   to={`/needs/${nid}`}
                   className="rounded-full px-3 py-1 text-sm font-medium"
-                  style={{ backgroundColor: `${NEEDS_META[nid].hex}1f`, color: NEEDS_META[nid].hex }}
+                  style={{ backgroundColor: `${NEEDS_META[nid].hex}1f`, color: needTextHex(nid) }}
                 >
                   {t(needById[nid].name)}
                 </Link>

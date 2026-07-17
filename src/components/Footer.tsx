@@ -14,17 +14,17 @@ export default function Footer() {
           <Logo className="h-10 w-10" />
           <div>
             <p className="font-heading text-lg font-bold text-brand-700">{t(UI.brand)}</p>
-            <p className="max-w-md text-sm text-ink-500">{t(UI.brandSub)}</p>
+            <p className="max-w-md text-sm text-ink-700">{t(UI.brandSub)}</p>
           </div>
         </div>
-        <div className="max-w-md space-y-2 text-sm text-ink-500">
+        <div className="max-w-md space-y-2 text-sm text-ink-700">
           <p className="flex items-start gap-2">
-            <ShieldCheck className="mt-0.5 h-4 w-4 shrink-0 text-brand-500" aria-hidden />
+            <ShieldCheck className="mt-0.5 h-4 w-4 shrink-0 text-brand-600" aria-hidden />
             <span>{t(UI.misc.privacy)}</span>
           </p>
           <p>{t(UI.misc.madeBy)}</p>
-          <p className="text-ink-500">{t(UI.misc.citation)}</p>
-          <p className="text-ink-500">{t(UI.misc.builtBy)}</p>
+          <p className="text-ink-700">{t(UI.misc.citation)}</p>
+          <p className="text-ink-700">{t(UI.misc.builtBy)}</p>
           <p>
             <Link to="/accessibility" className="font-medium text-brand-700 underline hover:text-brand-600">
               {t(UI.misc.accessibility)}

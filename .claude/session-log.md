@@ -637,3 +637,47 @@ if
 - 14:16 Edit: Footer.tsx
 - 14:16 Create: Accessibility.tsx
 - 14:17 Run: cd "C:/Users/user/Desktop/projects/BSF portal"
+- 14:21 Create: SKILL.md
+- 14:22 Create: statement-template-he.md
+- 14:22 Create: statement-template-en.md
+- 14:23 Create: checklist.md
+- 14:23 Create: sources.md
+- 14:25 Create: Accessibility.tsx
+- 14:26 Edit: Layout.tsx
+- 14:31 Run: cd "C:/Users/user/Desktop/projects/BSF portal"
+- 14:31 Edit: Accessibility.tsx
+- 14:32 Run: cd "C:/Users/user/Desktop/projects/BSF portal"
+- 14:33 Read: Footer.tsx
+- 14:33 Edit: Footer.tsx
+- 14:37 Edit: needs-meta.ts
+- 14:38 Edit: ToolPage.tsx
+- 14:38 Edit: ToolPage.tsx
+- 14:38 Edit: Practice.tsx
+- 14:38 Edit: Practice.tsx
+- 14:38 Edit: Needs.tsx
+- 14:38 Edit: Needs.tsx
+- 14:39 Edit: MySpace.tsx
+- 14:39 Read: MySpace.tsx
+- 14:39 Edit: MySpace.tsx
+- 14:39 Edit: MySpace.tsx
+- 14:40 Edit: ClosenessCirclesBody.tsx
+- 14:40 Edit: ClosenessCirclesBody.tsx
+- 14:40 Edit: ClosenessCirclesBody.tsx
+- 14:40 Edit: ClosenessCirclesBody.tsx
+- 14:41 Edit: GuidedReflectionBody.tsx
+- 14:41 Edit: GuidedReflectionBody.tsx
+- 14:41 Edit: MeditationPlayer.tsx
+- 14:41 Edit: MeditationPlayer.tsx
+- 14:42 Edit: ProtocolModule.tsx
+- 14:42 Edit: ProtocolModule.tsx
+- 14:42 Edit: AccessGate.tsx
+- 14:43 Run: cd "C:/Users/user/Desktop/projects/BSF portal"
+- 14:45 Edit: NeedDetail.tsx
+- 14:45 Edit: ToolPage.tsx
+- 14:46 Run: cd "C:/Users/user/Desktop/projects/BSF portal"
+- 14:47 Edit: MeditationPlayer.tsx
+- 14:47 Run: cd "C:/Users/user/Desktop/projects/BSF portal"
+- 14:49 Edit: NeedsWheel.tsx
+- 14:49 Run: cd "C:/Users/user/Desktop/projects/BSF portal"
+- 14:51 Edit: PleasurableActivitiesBody.tsx
+- 14:52 Run: cd "C:/Users/user/Desktop/projects/BSF portal"

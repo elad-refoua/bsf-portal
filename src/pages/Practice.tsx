@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { ArrowLeft, ArrowRight, FileDown } from "lucide-react";
 import { useLang } from "@/i18n/LanguageContext";
 import { UI } from "@/lib/ui-strings";
-import { NEED_ORDER, NEEDS_META } from "@/lib/needs-meta";
+import { NEED_ORDER, NEEDS_META, needTextHex } from "@/lib/needs-meta";
 import { needById, toolsForNeed } from "@/content";
 import { Section, PageHeader } from "@/components/ui/primitives";
 
@@ -50,7 +50,7 @@ export default function Practice() {
                         <h3 className="font-heading text-lg font-bold text-ink-900">{t(tool.name)}</h3>
                         <p className="mt-1 flex-1 text-ink-700">{t(tool.summary)}</p>
                         <span className="mt-4 flex items-center gap-3 text-sm">
-                          <span className="inline-flex items-center gap-1 font-medium" style={{ color: m.hex }}>
+                          <span className="inline-flex items-center gap-1 font-medium" style={{ color: needTextHex(id) }}>
                             {t(UI.actions.open)}
                             <Arrow className="h-4 w-4 transition group-hover:translate-x-0.5 rtl:group-hover:-translate-x-0.5" aria-hidden />
                           </span>

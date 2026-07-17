@@ -12,8 +12,11 @@ export default function NeedsWheel() {
   });
 
   return (
-    <div className="relative mx-auto aspect-square w-full max-w-md" role="img"
-      aria-label={t({ he: "מודל ששת הצרכים", en: "The six-needs model" })}>
+    <div
+      className="relative mx-auto aspect-square w-full max-w-md"
+      role="group"
+      aria-label={t({ he: "מודל ששת הצרכים — בחירת צורך", en: "The six-needs model — choose a need" })}
+    >
       {/* connecting spokes */}
       <svg viewBox="0 0 100 100" preserveAspectRatio="none" className="absolute inset-0 h-full w-full">
         {pts.map((p) => (

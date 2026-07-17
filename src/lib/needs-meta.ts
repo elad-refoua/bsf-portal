@@ -60,3 +60,26 @@ export const NEED_ORDER: NeedId[] = [
   "control",
   "play",
 ];
+
+/**
+ * The accent hexes are mid-tone — great as backgrounds/icon fills, but they FAIL WCAG-AA
+ * contrast when used as TEXT on white/light tints, or under white text. `darken()` produces a
+ * text-safe variant (≥4.5:1 on white / under white). Use `needTextHex(id)` for accent-colored
+ * text, and `darken(accentHex)` for accent backgrounds that carry white text.
+ */
+export function darken(hex: string, amount = 0.42): string {
+  const n = parseInt(hex.replace("#", ""), 16);
+  const f = 1 - amount;
+  const r = Math.round(((n >> 16) & 255) * f);
+  const g = Math.round(((n >> 8) & 255) * f);
+  const b = Math.round((n & 255) * f);
+  return "#" + ((1 << 24) | (r << 16) | (g << 8) | b).toString(16).slice(1);
+}
+
+export const NEED_TEXT_HEX = Object.fromEntries(
+  NEED_ORDER.map((id) => [id, darken(NEEDS_META[id].hex)]),
+) as Record<NeedId, string>;
+
+export function needTextHex(id: NeedId): string {
+  return NEED_TEXT_HEX[id];
+}

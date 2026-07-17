@@ -5,7 +5,7 @@ import { useLang } from "@/i18n/LanguageContext";
 import { UI } from "@/lib/ui-strings";
 import { listAllTools, clearAllData } from "@/lib/storage";
 import { toolById, needsForTool } from "@/content";
-import { NEEDS_META } from "@/lib/needs-meta";
+import { NEEDS_META, needTextHex } from "@/lib/needs-meta";
 import { Section, PageHeader, Button } from "@/components/ui/primitives";
 
 export default function MySpace() {
@@ -57,6 +57,7 @@ export default function MySpace() {
               if (!tool) return null;
               const need = needsForTool(it.toolId)[0];
               const hex = need ? NEEDS_META[need].hex : "#2f7f77";
+              const textHex = need ? needTextHex(need) : "#265f59";
               return (
                 <li key={it.toolId}>
                   <Link
@@ -69,7 +70,7 @@ export default function MySpace() {
                       {it.count} {t({ he: "רשומות", en: "entries" })} ·{" "}
                       {new Date(it.lastUpdated).toLocaleDateString(lang === "he" ? "he-IL" : "en-US")}
                     </p>
-                    <span className="mt-3 inline-flex items-center gap-1 text-sm font-medium" style={{ color: hex }}>
+                    <span className="mt-3 inline-flex items-center gap-1 text-sm font-medium" style={{ color: textHex }}>
                       {t(UI.actions.open)}
                       <Arrow className="h-4 w-4 transition group-hover:translate-x-0.5 rtl:group-hover:-translate-x-0.5" aria-hidden />
                     </span>

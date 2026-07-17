@@ -1,5 +1,6 @@
 import { Info } from "lucide-react";
 import { useLang } from "@/i18n/LanguageContext";
+import { darken } from "@/lib/needs-meta";
 import type { Bilingual } from "@/lib/types";
 import type { ToolBodyProps } from "@/tools/bodies/types";
 
@@ -55,7 +56,7 @@ export default function GuidedReflectionBody({ data, setField, accentHex }: Tool
         <div key={p.id}>
           <label htmlFor={`gr-${p.id}`} className="mb-1.5 flex items-center gap-2 font-medium text-ink-900">
             <span className="flex h-6 w-6 items-center justify-center rounded-full text-xs font-bold text-white"
-              style={{ backgroundColor: accentHex }}>{i + 1}</span>
+              style={{ backgroundColor: darken(accentHex) }}>{i + 1}</span>
             {t(p.label)}
           </label>
           <textarea
