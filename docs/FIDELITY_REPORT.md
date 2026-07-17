@@ -1,0 +1,43 @@
+# Content Fidelity Report
+
+Deterministic check: does each JSON paragraph appear in the source protocol dumps?
+VERBATIM = near word-for-word from source; PARTIAL = lightly edited/trimmed; DIVERGENT = paraphrased/adapted/translated/authored.
+
+## Totals (793 paragraphs)
+- VERBATIM: 707 (89%)
+- PARTIAL:  1 (0%)
+- DIVERGENT: 85 (11%)
+
+## By field group (verbatim / partial / divergent)
+- checkIn                en : 0 / 0 / 84
+- checkIn                he : 84 / 0 / 0
+- genericIntro           en : 6 / 0 / 0
+- genericIntro           he : 7 / 0 / 0
+- pat                    en : 34 / 1 / 0
+- pat                    he : 35 / 0 / 0
+- psychoed               en : 23 / 0 / 0
+- psychoed               he : 23 / 0 / 0
+- ther                   en : 246 / 0 / 1
+- ther                   he : 249 / 0 / 0
+
+## DIVERGENT paragraphs (not found in source — expected for EN check-ins & authored copy)
+- **predictability / checkIn / en** — 15 divergent
+    - [Begin by reminding them of the scope and length of this check-in:]…
+    - I'm really glad to talk with you again. Just a quick reminder: today's check-in …
+- **belonging / checkIn / en** — 14 divergent
+    - [Begin with a reminder about the scope and length of this check-in:]…
+    - I'm really glad to talk with you again. Just a quick reminder: today's check-in …
+- **competence / checkIn / en** — 13 divergent
+    - [Begin with a reminder of the scope and length of this check-in:] I'm really gla…
+    - [Recording]. We'd also like to record today's meeting for the research, so I jus…
+- **selfworth / checkIn / en** — 14 divergent
+    - Check-in - Module 4 (Self-Worth)…
+    - I'm really glad to talk with you again. Just a quick reminder: today's check-in …
+- **control / checkIn / en** — 15 divergent
+    - [Begin with a reminder of the scope and length of this check-in:]…
+    - I'm really glad to talk with you again. Just a quick reminder: today's check-in …
+- **play / ther.homePractice / en** — 1 divergent
+    - Before we finish, let's schedule our follow-up meeting.…
+- **play / checkIn / en** — 13 divergent
+    - I'm really glad to talk with you again. Just a quick reminder: today's check-in …
+    - We'll also want to record today's session for the research, so I just wanted to …

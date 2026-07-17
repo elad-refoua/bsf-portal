@@ -23,6 +23,7 @@ export default function Footer() {
           </p>
           <p>{t(UI.misc.madeBy)}</p>
           <p className="text-ink-500">{t(UI.misc.citation)}</p>
+          <p className="text-ink-500">{t(UI.misc.builtBy)}</p>
         </div>
       </Container>
     </footer>

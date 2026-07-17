@@ -66,9 +66,13 @@ export const UI = {
       he: "פותח במעבדת ARLAB, אוניברסיטת בר-אילן · פרופ׳ אשכול רפאלי",
       en: "Developed in the ARLAB, Bar-Ilan University · Prof. Eshkol Rafaeli",
     } as Bilingual,
+    builtBy: {
+      he: "האתר נבנה על ידי אלעד רפואה",
+      en: "Website built by Elad Refoua",
+    } as Bilingual,
     citation: {
-      he: "מבוסס על מודל הצרכים של Dweck (2017); Lazarus & Rafaeli (2023).",
-      en: "Based on Dweck's (2017) needs model; Lazarus & Rafaeli (2023).",
+      he: "מבוסס על מודל הצרכים של Dweck (2017).",
+      en: "Based on Dweck's (2017) needs model.",
     } as Bilingual,
   },
 } as const;
