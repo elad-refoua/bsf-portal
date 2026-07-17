@@ -133,7 +133,7 @@
       "belonging"
     ],
     "pdfHe": "1.1. Predictability - Event Monitoring Sheet - Hebrew.pdf",
-    "pdfEn": null
+    "pdfEn": "1.1. Predictability - Event Monitoring Sheet - Resized.pdf"
   },
   {
     "id": "mountain",
@@ -167,7 +167,7 @@
       "predictability"
     ],
     "pdfHe": "1.2. Predictability - Mountain meditation (122022 script) - Hebrew.pdf",
-    "pdfEn": null,
+    "pdfEn": "1.2. Predictability - Mountain meditation .pdf",
     "meditationScript": {
       "he": [
         "שב בצורה נוחה. דמיין את ההר היפה ביותר שאתה מכיר או שאתה מצליח לדמיין. התמקד בתמונה שלו וברגשות שהוא מעורר בך. שים לב לצורה הכללית שלו. דמיין את הפסגות שלו וגם את הבסיס, המושרש לתוך האדמה, לתוך כדור הארץ. את המדרונות התלולים או המתונים. תראה כמה הוא עצום, כמה אינו זז, כמה יפה הוא בין אם רואים אותו מרחוק ובין אם מקרוב.",
@@ -286,7 +286,7 @@
       "play"
     ],
     "pdfHe": "0.2 Imaginal Rehearsal Handout - Hebrew.pdf",
-    "pdfEn": null
+    "pdfEn": "Imaginal Rehearsal Handout.pdf"
   },
   {
     "id": "closenessCircles",
@@ -484,7 +484,7 @@
       "selfworth"
     ],
     "pdfHe": "4.1 Self-worth - self kindness monitoring sheet - Hebrew draft.pdf",
-    "pdfEn": null
+    "pdfEn": "4.1. Self-Worth - self-kindness monitoring sheet.pdf"
   },
   {
     "id": "innerGuideMonitor",
@@ -579,7 +579,7 @@
       "control"
     ],
     "pdfHe": "5.1. Control - Inner guide record - Hebrew.pdf",
-    "pdfEn": null
+    "pdfEn": "5.1. Control - Inner guide record.pdf"
   },
   {
     "id": "decisionalBalance",
@@ -686,7 +686,7 @@
       "control"
     ],
     "pdfHe": "5.2 Decisional Balance sheet - Hebrew.pdf",
-    "pdfEn": null
+    "pdfEn": "5.2 Decisional Balance sheet.pdf"
   },
   {
     "id": "pleasurableActivities",
@@ -722,7 +722,7 @@
       "play"
     ],
     "pdfHe": "6.1 Pleasure-Play - Pleasurable activities worksheet - Hebrew.pdf",
-    "pdfEn": null
+    "pdfEn": "6.1 Pleasure-Play - Pleasurable activities worksheet.pdf"
   },
   {
     "id": "threeGoodThings",
@@ -803,7 +803,7 @@
       "play"
     ],
     "pdfHe": "6.2 Pleasure-play - Three Good Things - Hebrew handout.pdf",
-    "pdfEn": null
+    "pdfEn": "6.2 Pleasure-Play - Three good things.pdf"
   },
   {
     "id": "guidedReflection",
@@ -841,6 +841,6 @@
       "selfworth"
     ],
     "pdfHe": "4.2. Self-Worth - self-kindness practice instructions - Hebrew.pdf",
-    "pdfEn": null
+    "pdfEn": "4.2. Self-Worth - self-kindness practice instructions.pdf"
   }
 ]

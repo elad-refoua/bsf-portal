@@ -45,6 +45,13 @@ export const UI = {
     newEntry: { he: "רשומה חדשה", en: "New entry" } as Bilingual,
   },
 
+  a11y: {
+    primaryNav: { he: "ניווט ראשי", en: "Primary" } as Bilingual,
+    menuNav: { he: "תפריט", en: "Menu" } as Bilingual,
+    openMenu: { he: "פתיחת התפריט", en: "Open menu" } as Bilingual,
+    closeMenu: { he: "סגירת התפריט", en: "Close menu" } as Bilingual,
+  },
+
   misc: {
     skipToContent: { he: "דילוג לתוכן", en: "Skip to content" } as Bilingual,
     languageName: { he: "עברית", en: "English" } as Bilingual,

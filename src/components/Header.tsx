@@ -35,7 +35,7 @@ export default function Header() {
           </span>
         </NavLink>
 
-        <nav className="hidden items-center gap-1 lg:flex" aria-label="Primary">
+        <nav className="hidden items-center gap-1 lg:flex" aria-label={t(UI.a11y.primaryNav)}>
           {NAV.map((n) => (
             <NavLink key={n.to} to={n.to} className={linkClass}>
               {t(n.label)}
@@ -60,7 +60,7 @@ export default function Header() {
           <button
             className="inline-flex h-11 w-11 items-center justify-center rounded-full text-ink-700 hover:bg-sand-100 lg:hidden"
             onClick={() => setOpen((o) => !o)}
-            aria-label={open ? "Close menu" : "Open menu"}
+            aria-label={open ? t(UI.a11y.closeMenu) : t(UI.a11y.openMenu)}
             aria-expanded={open}
           >
             {open ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
@@ -69,7 +69,7 @@ export default function Header() {
       </Container>
 
       {open && (
-        <nav className="border-t border-sand-200 bg-sand-50 lg:hidden" aria-label="Mobile">
+        <nav className="border-t border-sand-200 bg-sand-50 lg:hidden" aria-label={t(UI.a11y.menuNav)}>
           <Container className="flex flex-col gap-1 py-3">
             {[...NAV, { to: "/therapist", label: UI.nav.therapist }].map((n) => (
               <NavLink

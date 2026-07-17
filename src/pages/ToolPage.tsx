@@ -46,7 +46,7 @@ export default function ToolPage() {
 
       <Section className="py-10">
         <div className="mx-auto max-w-4xl">
-          <ToolRenderer tool={tool} accentHex={accentHex} />
+          <ToolRenderer key={tool.id} tool={tool} accentHex={accentHex} />
         </div>
       </Section>
     </>

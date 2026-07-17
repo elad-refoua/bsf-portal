@@ -22,7 +22,7 @@ export default function Footer() {
             <span>{t(UI.misc.privacy)}</span>
           </p>
           <p>{t(UI.misc.madeBy)}</p>
-          <p className="text-ink-300">{t(UI.misc.citation)}</p>
+          <p className="text-ink-500">{t(UI.misc.citation)}</p>
         </div>
       </Container>
     </footer>

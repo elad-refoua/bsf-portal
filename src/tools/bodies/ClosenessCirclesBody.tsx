@@ -79,6 +79,7 @@ export default function ClosenessCirclesBody({ data, setData, accentHex }: ToolB
             onChange={(e) => setName(e.target.value)}
             onKeyDown={(e) => e.key === "Enter" && add()}
             placeholder={t({ he: "שם של אדם קרוב…", en: "Name of someone…" })}
+            aria-label={t({ he: "שם של אדם קרוב", en: "Name of a close person" })}
             className="w-full rounded-xl border border-sand-200 bg-sand-50 px-4 py-2.5 focus:border-brand-500 focus:bg-white"
           />
           <button onClick={add} className="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-xl text-white"

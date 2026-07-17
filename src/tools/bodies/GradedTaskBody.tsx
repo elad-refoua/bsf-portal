@@ -31,10 +31,11 @@ export default function GradedTaskBody({ data, setData, accentHex }: ToolBodyPro
   return (
     <div className="space-y-5">
       <div>
-        <label className="mb-1.5 block font-medium text-ink-900">
+        <label htmlFor="gt-goal" className="mb-1.5 block font-medium text-ink-900">
           {t({ he: "הפעילות שאני רוצה להתחיל", en: "The activity I want to start" })}
         </label>
         <input
+          id="gt-goal"
           type="text"
           value={goal}
           onChange={(e) => setGoal(e.target.value)}
@@ -72,7 +73,7 @@ export default function GradedTaskBody({ data, setData, accentHex }: ToolBodyPro
                 onChange={(e) => setSteps(steps.map((x) => (x.id === s.id ? { ...x, done: e.target.checked } : x)))}
                 className="h-5 w-5 rounded text-brand-600 focus:ring-brand-500"
               />
-              <span className={`min-w-0 flex-1 ${s.done ? "text-ink-300 line-through" : "text-ink-900"}`}>
+              <span className={`min-w-0 flex-1 ${s.done ? "text-ink-500 line-through" : "text-ink-900"}`}>
                 {s.text}
               </span>
               <button onClick={() => setSteps(steps.filter((x) => x.id !== s.id))}
@@ -90,6 +91,7 @@ export default function GradedTaskBody({ data, setData, accentHex }: ToolBodyPro
             onChange={(e) => setDraft(e.target.value)}
             onKeyDown={(e) => e.key === "Enter" && add()}
             placeholder={t({ he: "צעד קטן נוסף…", en: "Another small step…" })}
+            aria-label={t({ he: "צעד קטן נוסף", en: "Another small step" })}
             className="w-full rounded-xl border border-sand-200 bg-sand-50 px-4 py-2.5 focus:border-brand-500 focus:bg-white"
           />
           <button onClick={add} className="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-xl text-white"

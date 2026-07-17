@@ -24,7 +24,7 @@ export default function Layout() {
         {t(UI.misc.skipToContent)}
       </button>
       <Header />
-      <main id="content" className="flex-1">
+      <main id="content" className="flex-1 scroll-mt-20">
         <Suspense
           fallback={
             <div className="flex min-h-[50vh] items-center justify-center text-ink-300" aria-live="polite">
