@@ -40,6 +40,13 @@ practice tools by module. **Therapist area (gated by access code):** clean full 
   Deployed to GitHub Pages. **Deploy bug + fix:** Git-Bash mangled `VITE_BASE=/bsf-portal/` →
   `/Program Files/Git/bsf-portal/` (blank site); fixed by setting `base` in `vite.config.ts` by
   command; redeployed; re-verified live and rendering.
+- **2026-07-17 (wrap-up)** — Footer: removed the Lazarus & Rafaeli (2023) citation, added "Website
+  built by Elad Refoua". Removed the Emotional-Balance (UCB) note so the site covers only the final
+  6-module protocol. Ran a deterministic fidelity check (`scratch/verify_fidelity.py` →
+  `docs/FIDELITY_REPORT.md`): 89% of paragraphs verbatim, **Hebrew 100% verbatim**, the only
+  non-source text being the English check-in translations + authored UI/tool scaffolding. Added a
+  dedicated `bsf-portal` subagent, `docs/MAINTENANCE.md`, and a project memory. **In progress:**
+  Israeli web-accessibility skill + on-site accessibility statement (per Elad's request).
 - **2026-07-17 (fix round)** — Fixed reported "therapist section broken": HashRouter treated the
   sub-nav `#anchor` links (and skip link) as routes → 404; replaced with `scrollToId()` (chips now
   scroll + expand modules). Generated the real **Mountain-meditation audio** (Gemini TTS,

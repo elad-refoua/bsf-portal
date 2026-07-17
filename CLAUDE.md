@@ -51,3 +51,9 @@ components. The JSON is also the project's documentation of the protocol.
 - Per-need accent colors use dynamic Tailwind classes → keep them in `tailwind.config.js` `safelist`.
 - RTL: prefer logical CSS + Tailwind `rtl:`/`ltr:` variants; test both directions.
 - Hebrew fonts (Heebo, Frank Ruhl Libre) are preconnected in `index.html`.
+
+## Dedicated agent + runbook
+There is a project-expert subagent **`bsf-portal`** (`~/.claude/agents/bsf-portal.md`) — use it
+proactively for any portal work. Operational how-to (update content, regenerate audio, change the
+gate code, deploy) is in `docs/MAINTENANCE.md`. Content-fidelity evidence is in
+`docs/FIDELITY_REPORT.md` (Hebrew is ~100% verbatim from the source protocols).
