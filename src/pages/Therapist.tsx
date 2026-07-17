@@ -17,6 +17,7 @@ import type { Bilingual, NeedId } from "@/lib/types";
 import { Section, Container, Card, Prose } from "@/components/ui/primitives";
 import AccessGate, { isUnlocked } from "@/components/therapist/AccessGate";
 import ProtocolModule from "@/components/therapist/ProtocolModule";
+import { scrollToId } from "@/lib/scroll";
 
 const BASE = import.meta.env.BASE_URL;
 
@@ -75,12 +76,13 @@ function NavLinks() {
     <ul className="flex flex-wrap gap-2">
       {links.map((l) => (
         <li key={l.id}>
-          <a
-            href={`#${l.id}`}
+          <button
+            type="button"
+            onClick={() => scrollToId(l.id)}
             className="inline-flex min-h-[36px] items-center rounded-full border border-sand-200 bg-white px-3 py-1.5 text-sm font-medium text-ink-700 transition hover:border-brand-300 hover:bg-brand-50 hover:text-brand-700"
           >
             {t(l.label)}
-          </a>
+          </button>
         </li>
       ))}
     </ul>

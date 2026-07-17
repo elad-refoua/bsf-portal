@@ -5,11 +5,10 @@ import { Section, PageHeader } from "@/components/ui/primitives";
 import MeditationPlayer from "@/tools/MeditationPlayer";
 import AssetImage from "@/components/AssetImage";
 
-const PODCAST = `${import.meta.env.BASE_URL}assets/audio/ssi-podcast.mp3`;
-
 export default function Calm() {
-  const { t } = useLang();
+  const { t, lang } = useLang();
   const mountain = toolById["mountain"];
+  const audioSrc = `${import.meta.env.BASE_URL}assets/audio/mountain-${lang}.mp3`;
 
   return (
     <Section>
@@ -28,7 +27,7 @@ export default function Calm() {
             className="h-48 w-full object-cover sm:h-64"
           />
         </div>
-        <MeditationPlayer script={mountain?.meditationScript} audioSrc={PODCAST} accentHex="#5b8fb0" />
+        <MeditationPlayer script={mountain?.meditationScript} audioSrc={audioSrc} accentHex="#5b8fb0" />
       </div>
     </Section>
   );

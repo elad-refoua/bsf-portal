@@ -1,5 +1,6 @@
 import type { ToolContent } from "@/lib/types";
 import type { Lang } from "@/lib/types";
+import { useLang } from "@/i18n/LanguageContext";
 import ToolShell from "@/tools/ToolShell";
 import FieldForm from "@/tools/FieldForm";
 import MeditationPlayer from "@/tools/MeditationPlayer";
@@ -7,8 +8,6 @@ import ClosenessCirclesBody from "@/tools/bodies/ClosenessCirclesBody";
 import PleasurableActivitiesBody from "@/tools/bodies/PleasurableActivitiesBody";
 import GradedTaskBody from "@/tools/bodies/GradedTaskBody";
 import GuidedReflectionBody from "@/tools/bodies/GuidedReflectionBody";
-
-const PODCAST = `${import.meta.env.BASE_URL}assets/audio/ssi-podcast.mp3`;
 
 /** Two-column field layout reads better for a couple of tools. */
 const TWO_COL = new Set(["decisionalBalance"]);
@@ -23,9 +22,11 @@ function firstValueTitle(data: Record<string, unknown>, lang: Lang): string | un
 }
 
 export default function ToolRenderer({ tool, accentHex }: { tool: ToolContent; accentHex: string }) {
+  const { lang } = useLang();
   // The meditation is a player, not a savable form.
   if (tool.type === "meditation") {
-    return <MeditationPlayer script={tool.meditationScript} audioSrc={PODCAST} accentHex={accentHex} />;
+    const audioSrc = `${import.meta.env.BASE_URL}assets/audio/mountain-${lang}.mp3`;
+    return <MeditationPlayer script={tool.meditationScript} audioSrc={audioSrc} accentHex={accentHex} />;
   }
 
   return (

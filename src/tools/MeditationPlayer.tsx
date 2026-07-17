@@ -3,6 +3,9 @@ import { Play, Pause } from "lucide-react";
 import { useLang } from "@/i18n/LanguageContext";
 import type { BilingualBlocks } from "@/lib/types";
 
+/** Pure stage-direction lines (e.g. "[after one minute – bell]") aren't shown to the patient. */
+const CUE = /^\s*[[(].*[\])]\s*$/;
+
 /**
  * The Mountain meditation: a calming breathing pacer + the full guided script, and an
  * optional audio recording. Purely local; nothing tracked.
@@ -18,6 +21,8 @@ export default function MeditationPlayer({
 }) {
   const { t, lang } = useLang();
   const [breathing, setBreathing] = useState(false);
+  const [audioOk, setAudioOk] = useState(true);
+  const scriptParas = (script?.[lang] ?? []).filter((p) => !CUE.test(p));
 
   return (
     <div className="space-y-8">
@@ -48,26 +53,32 @@ export default function MeditationPlayer({
         </button>
       </div>
 
-      {/* Audio */}
-      {audioSrc && (
+      {/* Audio (hidden if the recording for this language isn't available) */}
+      {audioSrc && audioOk && (
         <div>
           <h3 className="mb-2 font-heading text-lg font-bold text-ink-900">
-            {t({ he: "האזנה", en: "Listen" })}
+            {t({ he: "האזנה למדיטציית ההר", en: "Listen to the Mountain meditation" })}
           </h3>
-          <audio controls preload="none" className="w-full" src={audioSrc}>
+          <audio
+            controls
+            preload="none"
+            className="w-full"
+            src={audioSrc}
+            onError={() => setAudioOk(false)}
+          >
             {t({ he: "הדפדפן אינו תומך בהשמעת אודיו.", en: "Your browser does not support audio playback." })}
           </audio>
         </div>
       )}
 
       {/* Script */}
-      {script && script[lang]?.length > 0 && (
+      {scriptParas.length > 0 && (
         <div>
           <h3 className="mb-3 font-heading text-lg font-bold text-ink-900">
             {t({ he: "הטקסט המלא", en: "The full script" })}
           </h3>
           <div className="max-h-[28rem] space-y-4 overflow-y-auto rounded-xl2 border border-sand-200 bg-white p-6 text-lg leading-relaxed text-ink-700">
-            {script[lang].map((p, i) => (
+            {scriptParas.map((p, i) => (
               <p key={i}>{p}</p>
             ))}
           </div>
