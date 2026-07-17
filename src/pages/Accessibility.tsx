@@ -72,11 +72,15 @@ export default function Accessibility() {
         />
 
         <Block
-          title={B("רמת הנגישות", "Accessibility level")}
+          title={B("רמת הנגישות והתקנים", "Accessibility level & standards")}
           paras={[
             B(
               "האתר הונגש בהתאם לתקן הישראלי ת\"י 5568, המבוסס על הנחיות WCAG 2.0 של ארגון W3C, ברמת נגישות AA.",
               "The site was made accessible per Israeli Standard IS 5568, based on the W3C WCAG 2.0 guidelines, at conformance Level AA.",
+            ),
+            B(
+              "בנוסף, האתר תוכנן לעמוד בהנחיות WCAG 2.1 ברמה AA — הסטנדרט הבינלאומי המקובל לנגישות אתרים, שהוא גם אמת-המידה שאליה מפנים ה-ADA וסעיף 508 בארה\"ב.",
+              "The site is also designed to conform to WCAG 2.1 Level AA — the internationally recognized standard for web accessibility, and the benchmark referenced under the U.S. Americans with Disabilities Act (ADA) and Section 508 of the Rehabilitation Act.",
             ),
           ]}
         />
