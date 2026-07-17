@@ -34,6 +34,12 @@ practice tools by module. **Therapist area (gated by access code):** clean full 
   Vite/React/TS/Tailwind, i18n, provenance docs, copied serve-ready PDFs + watermark + audio
   (WAV→MP3) into `public/assets/`. Plan file:
   `~/.claude/plans/polymorphic-wandering-rainbow.md`.
+- **2026-07-17 (same day)** — Built P1–P7. Content extracted (8-agent workflow) → JSON; design
+  system locked; 8 GPT-Image illustrations + needs-wheel; full patient portal + 11 interactive
+  tools; gated therapist portal (built by a parallel sub-agent). Browser-verified as a participant.
+  Deployed to GitHub Pages. **Deploy bug + fix:** Git-Bash mangled `VITE_BASE=/bsf-portal/` →
+  `/Program Files/Git/bsf-portal/` (blank site); fixed by setting `base` in `vite.config.ts` by
+  command; redeployed; re-verified live and rendering.
 
 ## Open items waiting on a human (Elad)
 - **Content review (required for LOCK):** read the extracted HE/EN content (esp. `translated`/
