@@ -62,6 +62,11 @@ practice tools by module. **Therapist area (gated by access code):** clean full 
   (footer/Practice/graded-task), custom-input aria-labels, wired 9 EN worksheet PDFs, added play
   module's missing follow-up line. Redeployed; re-verified the therapist fix + audio live.
 
+## Future ideas (Elad, 2026-07-17)
+- Add a section about the **actual research** (the BSF–UC Berkeley study) with **results**, once
+  available. The site today is scoped to the *treatment* only (the protocol was developed by the
+  ARLAB); a research/results section would be a separate future addition.
+
 ## Open items waiting on a human (Elad)
 - **Content review (required for LOCK):** read the extracted HE/EN content (esp. `translated`/
   `adapted` blocks flagged in the needs/tools JSON) for clinical fidelity.
