@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-sand-50 text-ink-900 font-body antialiased;
+  margin: 0;
+  min-height: 100vh;
+}
+
+h1, h2, h3, h4 {
+  @apply font-heading;
+  text-wrap: balance;
+}
+
+/* Respect reduced-motion preferences everywhere. */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Visible keyboard focus for accessibility (both LTR + RTL). */
+:where(a, button, input, textarea, select, [tabindex]):focus-visible {
+  outline: 3px solid theme("colors.brand.500");
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* Print styles — used when exporting a filled worksheet to PDF. */
+@media print {
+  .no-print { display: none !important; }
+  body { background: #fff; }
+}

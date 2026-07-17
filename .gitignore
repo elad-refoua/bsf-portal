@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+dist-ssr/
+*.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Editor / OS
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Windows reserved filename (causes git errors)
+nul
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+
+# Scratch
+scratch/
+tmp/
