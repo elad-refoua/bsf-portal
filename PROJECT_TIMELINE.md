@@ -40,6 +40,14 @@ practice tools by module. **Therapist area (gated by access code):** clean full 
   Deployed to GitHub Pages. **Deploy bug + fix:** Git-Bash mangled `VITE_BASE=/bsf-portal/` →
   `/Program Files/Git/bsf-portal/` (blank site); fixed by setting `base` in `vite.config.ts` by
   command; redeployed; re-verified live and rendering.
+- **2026-07-17 (fix round)** — Fixed reported "therapist section broken": HashRouter treated the
+  sub-nav `#anchor` links (and skip link) as routes → 404; replaced with `scrollToId()` (chips now
+  scroll + expand modules). Generated the real **Mountain-meditation audio** (Gemini TTS,
+  Vindemiatrix, HE + EN) — per-section QC 5/5 + whole-file QC 5/5 — with bell + pauses; wired it in
+  place of the generic podcast (removed). Ran a 4-agent adversarial **QA workflow**; fixed the
+  findings: tool→tool state bleed (`key={tool.id}`), bilingual nav aria-labels, AA contrast
+  (footer/Practice/graded-task), custom-input aria-labels, wired 9 EN worksheet PDFs, added play
+  module's missing follow-up line. Redeployed; re-verified the therapist fix + audio live.
 
 ## Open items waiting on a human (Elad)
 - **Content review (required for LOCK):** read the extracted HE/EN content (esp. `translated`/
