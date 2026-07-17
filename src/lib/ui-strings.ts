@@ -70,6 +70,10 @@ export const UI = {
       he: "האתר נבנה על ידי אלעד רפואה",
       en: "Website built by Elad Refoua",
     } as Bilingual,
+    accessibility: {
+      he: "הצהרת נגישות",
+      en: "Accessibility statement",
+    } as Bilingual,
     citation: {
       he: "מבוסס על מודל הצרכים של Dweck (2017).",
       en: "Based on Dweck's (2017) needs model.",

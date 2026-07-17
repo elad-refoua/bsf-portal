@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { ShieldCheck } from "lucide-react";
 import { useLang } from "@/i18n/LanguageContext";
 import { UI } from "@/lib/ui-strings";
@@ -24,6 +25,11 @@ export default function Footer() {
           <p>{t(UI.misc.madeBy)}</p>
           <p className="text-ink-500">{t(UI.misc.citation)}</p>
           <p className="text-ink-500">{t(UI.misc.builtBy)}</p>
+          <p>
+            <Link to="/accessibility" className="font-medium text-brand-700 underline hover:text-brand-600">
+              {t(UI.misc.accessibility)}
+            </Link>
+          </p>
         </div>
       </Container>
     </footer>
