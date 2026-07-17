@@ -6,11 +6,14 @@
 ## Where things stand RIGHT NOW
 | Item | State |
 |---|---|
-| Phase | P0 (scaffold + provenance) — in progress |
-| Stack | React 18 + Vite + TS + Tailwind + HashRouter + i18n — scaffolded, builds |
-| Content model | not yet extracted (P1) |
-| Design system | placeholder tokens (P2 will finalize via frontend-design + ui-ux-pro-max) |
-| Deploy | not yet (P7 → GitHub Pages) |
+| Phase | P0–P7 complete — LIVE (v1, AUDIT-basis, awaiting Elad's review) |
+| Live URL | https://elad-refoua.github.io/bsf-portal/ |
+| Repo | https://github.com/elad-refoua/bsf-portal (public) |
+| Stack | React 18 + Vite + TS + Tailwind + HashRouter + i18n |
+| Content model | extracted from finals → needs/tools/protocol.json (0 validation errors) |
+| Design system | locked (docs/DESIGN_SYSTEM.md); 8 WebP illustrations + needs-wheel diagram |
+| Therapist gate | client-side code (default "catan2026"; change GATE_HASH in AccessGate.tsx) |
+| Verified | browser-verified: tools save/persist, gate unlock, HE⇄EN RTL flip |
 
 ## What LOCKED means here
 An artifact is **LOCKED** only when (a) AUDIT-PASSED and (b) **USER-LOCKED** — Elad personally
@@ -33,6 +36,9 @@ practice tools by module. **Therapist area (gated by access code):** clean full 
   `~/.claude/plans/polymorphic-wandering-rainbow.md`.
 
 ## Open items waiting on a human (Elad)
-- Confirm portal name/branding ("CATAN" default) and therapist access code.
-- Review translated/adapted bilingual content once P1 produces it.
-- Personal line-by-line review before anything is called LOCKED.
+- **Content review (required for LOCK):** read the extracted HE/EN content (esp. `translated`/
+  `adapted` blocks flagged in the needs/tools JSON) for clinical fidelity.
+- Confirm portal name/branding ("CATAN" default) and change the therapist access code if desired.
+- Decide on gate strength (current gate is client-side/soft; full protocol is in the public bundle).
+- Optional polish: English worksheet-PDF links (EN clean PDFs exist on disk but aren't yet linked),
+  splitting protocol.json into its own lazy chunk, generating a TTS Mountain-meditation audio.

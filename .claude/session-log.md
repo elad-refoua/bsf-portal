@@ -360,3 +360,11 @@ if
 - 11:28 Edit: Layout.tsx
 - 11:28 Run: cd "C:/Users/user/Desktop/projects/BSF portal"
 - 11:28 Run: cd "C:/Users/user/Desktop/projects/BSF portal"
+- 11:29 Run: cd "C:/Users/user/Desktop/projects/BSF portal"
+- 11:31 Run: cd "C:/Users/user/Desktop/projects/BSF portal"
+- 11:32 Run: cd "C:/Users/user/Desktop/projects/BSF portal"
+- 11:32 Run: cd "C:/Users/user/Desktop/projects/BSF portal/dist
+- 11:32 Run: gh api -X POST repos/elad-refoua/bsf-portal/pages 
+- 11:33 Run: gh api repos/elad-refoua/bsf-portal/pages 2>&1
+- 11:33 Edit: PROJECT_TIMELINE.md
+- 11:33 Edit: PROJECT_TIMELINE.md
