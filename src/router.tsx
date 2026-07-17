@@ -1,15 +1,18 @@
+import { lazy } from "react";
 import { createHashRouter } from "react-router-dom";
 import Layout from "@/components/Layout";
 import Home from "@/pages/Home";
-import Understand from "@/pages/Understand";
-import Needs from "@/pages/Needs";
-import NeedDetail from "@/pages/NeedDetail";
-import Practice from "@/pages/Practice";
-import ToolPage from "@/pages/ToolPage";
-import MySpace from "@/pages/MySpace";
-import Calm from "@/pages/Calm";
-import Therapist from "@/pages/Therapist";
-import NotFound from "@/pages/NotFound";
+
+// Route-level code splitting: heavy pages (esp. the therapist protocol content) load on demand.
+const Understand = lazy(() => import("@/pages/Understand"));
+const Needs = lazy(() => import("@/pages/Needs"));
+const NeedDetail = lazy(() => import("@/pages/NeedDetail"));
+const Practice = lazy(() => import("@/pages/Practice"));
+const ToolPage = lazy(() => import("@/pages/ToolPage"));
+const MySpace = lazy(() => import("@/pages/MySpace"));
+const Calm = lazy(() => import("@/pages/Calm"));
+const Therapist = lazy(() => import("@/pages/Therapist"));
+const NotFound = lazy(() => import("@/pages/NotFound"));
 
 export const router = createHashRouter([
   {

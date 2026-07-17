@@ -39,7 +39,7 @@ export default function NeedDetail() {
               </div>
             </div>
             <AssetImage
-              src={`images/need-${meta.id}.png`}
+              src={`images/need-${meta.id}.webp`}
               alt=""
               className="hidden h-28 w-40 shrink-0 rounded-xl2 object-cover shadow-soft lg:block"
             />

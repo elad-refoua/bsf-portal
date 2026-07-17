@@ -33,7 +33,7 @@ export default function Needs() {
                 style={{ borderTopColor: m.hex, borderTopWidth: 3 }}
               >
                 <AssetImage
-                  src={`images/need-${id}.png`}
+                  src={`images/need-${id}.webp`}
                   alt=""
                   className="h-32 w-full object-cover"
                 />

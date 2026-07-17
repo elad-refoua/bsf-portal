@@ -1,4 +1,5 @@
-import { Outlet, ScrollRestoration } from "react-router-dom";
+import { useEffect, Suspense } from "react";
+import { Outlet, useLocation } from "react-router-dom";
 import { useLang } from "@/i18n/LanguageContext";
 import { UI } from "@/lib/ui-strings";
 import Header from "@/components/Header";
@@ -6,6 +7,12 @@ import Footer from "@/components/Footer";
 
 export default function Layout() {
   const { t } = useLang();
+  const { pathname } = useLocation();
+
+  // Always start a new page at the top (guards against leftover scroll on route change).
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
   return (
     <div className="flex min-h-screen flex-col">
       <a
@@ -16,10 +23,17 @@ export default function Layout() {
       </a>
       <Header />
       <main id="content" className="flex-1">
-        <Outlet />
+        <Suspense
+          fallback={
+            <div className="flex min-h-[50vh] items-center justify-center text-ink-300" aria-live="polite">
+              <span className="h-8 w-8 animate-spin rounded-full border-2 border-brand-200 border-t-brand-600" />
+            </div>
+          }
+        >
+          <Outlet />
+        </Suspense>
       </main>
       <Footer />
-      <ScrollRestoration />
     </div>
   );
 }

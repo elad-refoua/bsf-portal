@@ -346,3 +346,17 @@ if
 - 11:14 Edit: Understand.tsx
 - 11:14 Edit: Understand.tsx
 - 11:14 Run: cd "C:/Users/user/Desktop/projects/BSF portal"
+- 11:15 Run: cd "C:/Users/user/Desktop/projects/BSF portal"
+- 11:15 Run: cd "C:/Users/user/Desktop/projects/BSF portal"
+- 11:26 Run: cd "C:/Users/user/Desktop/projects/BSF portal"
+- 11:26 Edit: Home.tsx
+- 11:26 Edit: NeedDetail.tsx
+- 11:26 Edit: Needs.tsx
+- 11:27 Edit: Calm.tsx
+- 11:27 Edit: Layout.tsx
+- 11:27 Edit: Layout.tsx
+- 11:27 Create: router.tsx
+- 11:27 Edit: Layout.tsx
+- 11:28 Edit: Layout.tsx
+- 11:28 Run: cd "C:/Users/user/Desktop/projects/BSF portal"
+- 11:28 Run: cd "C:/Users/user/Desktop/projects/BSF portal"

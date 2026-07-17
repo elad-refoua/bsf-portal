@@ -46,7 +46,7 @@ export default function Home() {
           {/* Hero illustration (degrades gracefully if not yet generated) */}
           <div className="mx-auto mt-10 max-w-4xl overflow-hidden rounded-xl2 shadow-soft">
             <AssetImage
-              src="images/hero.png"
+              src="images/hero.webp"
               alt={t({ he: "נוף גבעות רגוע ההולך אל הר יציב", en: "A calm landscape of hills leading to a steady mountain" })}
               className="h-56 w-full object-cover sm:h-72"
             />

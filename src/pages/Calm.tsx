@@ -23,7 +23,7 @@ export default function Calm() {
       <div className="mx-auto max-w-3xl">
         <div className="mb-8 overflow-hidden rounded-xl2 shadow-soft">
           <AssetImage
-            src="images/mountain.png"
+            src="images/mountain.webp"
             alt={t({ he: "הר רגוע המשתקף במים שקטים", en: "A calm mountain mirrored in still water" })}
             className="h-48 w-full object-cover sm:h-64"
           />
