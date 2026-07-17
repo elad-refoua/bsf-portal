@@ -589,3 +589,5 @@ if
 - 12:54 Run: cd "C:/Users/user/Desktop/projects/BSF portal"
 - 12:55 Run: cat "C:/Users/user/AppData/Local/Temp/claude/C--Us
 - 12:57 Edit: PROJECT_TIMELINE.md
+- 12:58 Run: cd "C:/Users/user/Desktop/projects/BSF portal"
+- 12:58 Run: for port in 5180; do pid=$(netstat -ano 2>/dev/nul
