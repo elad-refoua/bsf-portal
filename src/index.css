@@ -38,6 +38,12 @@ h1, h2, h3, h4 {
   border-radius: 4px;
 }
 
+/* Breathing pacer for the meditation player (disabled under reduced-motion above). */
+@keyframes breathe {
+  0%, 100% { transform: scale(0.7); }
+  40%, 60% { transform: scale(1); }
+}
+
 /* Print styles — used when exporting a filled worksheet to PDF. */
 @media print {
   .no-print { display: none !important; }

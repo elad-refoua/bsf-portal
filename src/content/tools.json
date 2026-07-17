@@ -1,0 +1,846 @@
+[
+  {
+    "id": "triangle",
+    "type": "triangle",
+    "name": {
+      "he": "דף ניטור אירועים (דף משולשים)",
+      "en": "Event Monitoring (Triangle) Sheet"
+    },
+    "summary": {
+      "he": "כלי לפירוק והבנה של רגע מטריד: מהסיטואציה, דרך המחשבות, הרגשות, תחושות הגוף וההתנהגות, ועד למחשבות ולפעולות אלטרנטיביות.",
+      "en": "A tool for making sense of an unsettling moment: from the situation through thoughts, emotions, body sensations, and behavior, all the way to alternative thoughts and actions."
+    },
+    "instructions": {
+      "he": [
+        "שיטת עבודה מאוד אפקטיבית כדי לפרק ולהבין יותר טוב סיטואציות שמעוררות בנו קושי - למשל, בגלל חוסר ודאות או אי-בהירות.",
+        "התחל/י מלחשוב על איזשהו רגע מעורר דאגה או מטריד שהיה לך לאחרונה.",
+        "הדבר הראשון שנרצה לעשות הוא לזהות מהי הסיטואציה שהיוותה את הטריגר - מה הדבר שהוביל לתחושות האלו - אבל אפשר להתחיל גם מהרגש או המחשבות וללכת אחורה מהן אל הסיטואציה.",
+        "חשוב איך הסיטואציה הזו הייתה נראית \"לזבוב על הקיר\" - כלומר, נסה/י לתאר אותה בצורה הכי אובייקטיבית שאפשר.",
+        "מלא/י את הצד השמאלי של הדף - מחשבות, רגשות, תחושות גוף והתנהגויות אוטומטיות - כדי להיות מודע יותר לתגובות שלך ולאפשר להן פשוט להיות.",
+        "לאחר מכן, עבור/עברי לצד הימני - מחשבות ופעולות אלטרנטיביות - כדי לראות האם אפשר להתבונן באירוע גם כהזדמנות, או לפחות כמשהו שמעורר סקרנות.",
+        "כדאי להשתמש בכלי הזה פעמיים-שלוש בשבוע כדי להתבונן בסיטואציות שמטרידות או מעסיקות אותך."
+      ],
+      "en": [
+        "A technique we find very effective for making sense of unpredictable situations and of our reactions to them.",
+        "Start by thinking of a specific worrying or unsettling moment you've had recently.",
+        "The first thing we want to do is to identify the triggering situation, something that led to these feelings - but we can also start with the feelings or thoughts and work backwards to the situation.",
+        "Think about what this situation would look like to a fly on the wall - i.e., capture it using as objective a description as possible.",
+        "Fill in the left-hand side - thoughts, emotions, body sensations, and automatic behaviors - to become aware of your reactions and allow them to just be.",
+        "Then move to the right-hand side - alternative thoughts and actions - to see whether you can view the event through the lens of possible opportunity, or at least curiosity about engaging with it differently.",
+        "It is useful to do this 2-3 times a week to look at situations that get you worked up."
+      ]
+    },
+    "fields": [
+      {
+        "id": "situation",
+        "label": {
+          "he": "מה הייתה הסיטואציה?",
+          "en": "What was the situation?"
+        },
+        "kind": "textarea",
+        "placeholder": {
+          "he": "תאר/י את הרגע בצורה אובייקטיבית, כמו \"זבוב על הקיר\" - מה הדבר שהוביל לתחושות האלו.",
+          "en": "Describe the triggering moment as objectively as possible - as a fly on the wall would see it."
+        }
+      },
+      {
+        "id": "thoughts",
+        "label": {
+          "he": "מחשבות",
+          "en": "Thoughts"
+        },
+        "kind": "textarea",
+        "placeholder": {
+          "he": "אילו מחשבות עלו? במיוחד דאגות או מחשבות שקשורות לצורך בביטחון וביכולת לנבא מה הולך לקרות.",
+          "en": "What thoughts came up - especially worries or thoughts related to the need for security and predictability?"
+        }
+      },
+      {
+        "id": "emotions",
+        "label": {
+          "he": "רגשות",
+          "en": "Emotions"
+        },
+        "kind": "textarea",
+        "placeholder": {
+          "he": "נסה/י להבחין בין הרגשות השונים שעלו ברגע הזה.",
+          "en": "Try to differentiate the various emotions that came up."
+        }
+      },
+      {
+        "id": "bodySensations",
+        "label": {
+          "he": "תחושות גוף",
+          "en": "Body sensations"
+        },
+        "kind": "textarea",
+        "placeholder": {
+          "he": "איך הגוף שלך הגיב - אילו תחושות או תגובות פיזיולוגיות התעוררו? לפעמים אלו יהיו הדבר הראשון שתשים/י לב אליו.",
+          "en": "How did your body react - what sensations or physiological reactions took place? Sometimes these are the first thing you notice."
+        }
+      },
+      {
+        "id": "behaviors",
+        "label": {
+          "he": "התנהגויות",
+          "en": "Behaviors"
+        },
+        "kind": "textarea",
+        "placeholder": {
+          "he": "כיצד הגבת בפעולה - למשל חיפוש אישור או הימנעות. אלה ההתנהגויות האוטומטיות שעלו אצלך.",
+          "en": "How did you react in action - e.g., reassurance seeking, avoidance? These are the automatic behaviors that came up."
+        }
+      },
+      {
+        "id": "alternativeThoughts",
+        "label": {
+          "he": "מחשבות אלטרנטיביות",
+          "en": "Alternative thoughts"
+        },
+        "kind": "textarea",
+        "placeholder": {
+          "he": "האם האירוע הפעיל רק דאגות, או שאפשר למצוא בו גם משהו מלהיב, מסקרן או מאתגר?",
+          "en": "Did this situation activate only worries, or is there some excitement, curiosity, or challenge that can be found there?"
+        }
+      },
+      {
+        "id": "alternativeActions",
+        "label": {
+          "he": "פעולות אלטרנטיביות",
+          "en": "Alternative actions"
+        },
+        "kind": "textarea",
+        "placeholder": {
+          "he": "אילו רגשות, תחושות גוף ופעולות באים יחד עם מחשבות ההתלהבות או האתגר? מהי דרך פעולה אחרת אפשרית?",
+          "en": "What feelings, sensations, and actions would go along with these excitement/challenge thoughts? What alternative course of action is possible?"
+        }
+      },
+      {
+        "id": "consequences",
+        "label": {
+          "he": "תוצאות",
+          "en": "Consequences"
+        },
+        "kind": "textarea",
+        "placeholder": {
+          "he": "רק אם אתה יודע מה קרה אחר כך - אחרי הרגע שבו עלו המחשבות, הרגשות וההתנהגויות האוטומטיות.",
+          "en": "Only if you know what happened next - after the moment in which these automatic thoughts, feelings, and behaviors took place."
+        }
+      }
+    ],
+    "moduleIds": [
+      "predictability",
+      "belonging"
+    ],
+    "pdfHe": "1.1. Predictability - Event Monitoring Sheet - Hebrew.pdf",
+    "pdfEn": null
+  },
+  {
+    "id": "mountain",
+    "type": "meditation",
+    "name": {
+      "he": "מדיטציית ההר",
+      "en": "Mountain Meditation"
+    },
+    "summary": {
+      "he": "מדיטציית מיינדפולנס מודרכת שבה את/ה שואב/ת חוזק ויציבות מדמות ההר שבתוכך, שנשאר יציב ושקט גם כשמזג האוויר משתנה סביבו.",
+      "en": "A guided mindfulness meditation in which you draw strength and stability from the mountain within you - one that stays steady and calm even as the weather changes around it."
+    },
+    "instructions": {
+      "he": [
+        "אפשר להשתמש בתסריט הזה של מיינדפולנס ממש כמו שהוא, ואפשר גם לשנות אותו איך שתראה/י לנכון. אפשר לתרגל אותו בתרגול ארוך יחסית, אבל גם בדרכים קצרות יותר.",
+        "בכל מקרה, במוקד של התרגול הזה עומד הרעיון של לשאוב כוח מתמונה פנימית, אותה אפשר להעלות בדמיון בכל זמן ובכל מקום.",
+        "מצא/י מקום נוח, עצום/עצמי עיניים, והאזן/הקשיבי לסקריפט המלא (או להקלטה) בזמן שאת/ה מדמיין/ת את ההר.",
+        "מומלץ להאזין להקלטה כל יום או יומיים בשבועיים הקרובים, ולחקור את התועלת שלה - במיוחד אל מול דאגה, מצוקה וחוסר וודאות.",
+        "לתזכורת קצרה בזמן היום-יום: שב/י בנוחות, דמיין/י הר יפהפה ועצום, חווה/י את עצמך בתור ההר - מושרש, יציב, קבוע - והפוך/הפכי להר נושם, שקט וממורכז, גם כשהדברים משתנים מסביב."
+      ],
+      "en": [
+        "You may use this mindfulness script as it is, and you could also change it as you see fit. You can practice it in relatively longer sessions but also in shorter ways.",
+        "In any case, at the core of this exercise is the idea of drawing power from an inner image, which you can invoke at any time and in any place.",
+        "Find a comfortable place, close your eyes, and listen to the full script (or the recording) as you picture the mountain.",
+        "It is recommended to listen to the recording every day or two for the next couple of weeks, and explore its usefulness - especially in the face of worry, adversity, and uncertainty.",
+        "For a quick reminder during daily life: sit comfortably, picture a beautiful and massive mountain, experience yourself as the mountain - rooted, steady, constant - and become a breathing mountain, quiet and centered, even as things change around you."
+      ]
+    },
+    "fields": [],
+    "moduleIds": [
+      "predictability"
+    ],
+    "pdfHe": "1.2. Predictability - Mountain meditation (122022 script) - Hebrew.pdf",
+    "pdfEn": null,
+    "meditationScript": {
+      "he": [
+        "שב בצורה נוחה. דמיין את ההר היפה ביותר שאתה מכיר או שאתה מצליח לדמיין. התמקד בתמונה שלו וברגשות שהוא מעורר בך. שים לב לצורה הכללית שלו. דמיין את הפסגות שלו וגם את הבסיס, המושרש לתוך האדמה, לתוך כדור הארץ. את המדרונות התלולים או המתונים. תראה כמה הוא עצום, כמה אינו זז, כמה יפה הוא בין אם רואים אותו מרחוק ובין אם מקרוב.",
+        "אולי להר שלך יש שלג בפסגה ועצים על המדרונות הנמוכים יותר. אולי יש בו פסגה בולטת אחת ואולי כמה פסגות או מישור גבוה. בכל מקרה, פשוט שב וקח נשימות ביחד עם תמונת ההר הזה, ספוג אותו ושים לב לתכונות שלו.",
+        "כשאתה מרגיש מוכן, תראה אם אתה יכול להביא את ההר לתוך הגוף שלך, כך שהגוף שלך היושב פה וההר שבדמיון שלך הופכים לאחד. הראש שלך הופך לפסגה הרמה, הכתפיים והזרועות שלך הופכים למדרונות ההר, הישבן והרגליים הופכים לבסיס היציב המושרש לכרית שעל הרצפה או לכיסא. תחווה בגוף שלך את תחושת ההתרוממות, את תכונת ההתעלות והגובה של ההר, עמוק לתוך עמוד השדרה שלך.",
+        "הזמן את עצמך להפוך להר נושם, שאינו זז או מתערער בשקט שלך, לחלוטין מה שאתה - מעבר למילים ומחשבות, נוכחות מרוכזת, מושרשת, ולא נעה.",
+        "עכשיו, כמו שאתה כמובן יודע, לאורך היום כשהשמש נעה בשמיים ההר נשאר במקומו. אור, צל וצבעים משתנים כמעט מרגע לרגע בעוד ההר עומד בשקט ללא תזוזה. בזמן שהאור משתנה, כשהלילה הופך ליום והיום הופך ללילה, ההר פשוט יושב, הוא פשוט עצמו. הוא נשאר יציב ושקט בעוד העונות משתנות זו לתוך זו ומזג האוויר משתנה מרגע לרגע ומיום ליום. רוגע הנמשך בתוך כל השינויים.",
+        "באביב, ההר אולי מתכסה בפרחים מלבלבים; בסתיו, הפרחים אולי מאבדים את הזוהר שלהם. בחורף, עננים או ערפל עשויים להסתיר אותו, או שגשם קפוא יורד עליו. המטיילים שבאים לבקר אולי מאוכזבים שהם לא יכולים לראות את ההר בבהירות בגלל הערפל, אבל זה לא משנה להר - נראה או לא נראה, בשמש או בעננים, כשחם או כשקר, ההר עומד ופשוט הוא עצמו. הוא אינו מושפע ממזג האוויר, ממה שקורה מעל פני השטח, מהעולם של הנראות החיצונית.",
+        "בזמן שאנחנו יושבים ומחזיקים את התמונה הזו בדמיון שלנו, אנחנו יכולים לגלם את אותו שקט בלתי מעורער ואותה שורשיות מול כל מה שמשתנה בחיים שלנו במהלך שניות, שעות ושנים. בחיים שלנו אנחנו חווים כל הזמן את ההשתנות של הגוף והנפש, ושל העולם שסביבנו. אנחנו חווים תקופות של אור וחושך, צבעים בוהקים ושעמום אפרורי. אנחנו חווים סערות בעוצמות שונות, לפעמים אפילו בעוצמה הרסנית, הן בעולם החיצוני והן בחיים האישיים שלנו ובתוכנו. אנחנו עוברים תקופות של חושך וכאב וגם מתענגים על רגעים של אושר והתרוממות.",
+        "בכך שאנו הופכים להר בדמיון שלנו, אנחנו יכולים להתחבר לחוזק וליציבות שלו, ולאמץ אותם לעצמנו. אנחנו יכולים להשתמש באנרגיות שלו כדי לעזור לעצמנו להתמודד עם כל רגע, בעזרת מיינדפולנס, שוויון נפש ובהירות. זה יכול לעזור לנו לראות שהמחשבות והרגשות שלנו, העיסוקים שלנו, הסערות והמשברים הרגשיים שלנו, ואפילו הדברים שקורים לנו, ממש דומים למזג האוויר על ההר.",
+        "קריאה להר שבתוכנו יכולה לעזור לנו להשיג תחושה של חוזק ויציבות. ברגעים הבאים, אני מזמינה אותך להמשיך לחשוב על הקשר שלך להר, להיות בסוג של מדיטציה, בשקט, עד שאתה שומע את צליל הפעמון.",
+        "[אחרי דקה אחת - צליל פעמון]",
+        "בחיי היומיום, אנחנו יכולים לקרוא לתמונה הזו ולתחושה של ההר הפנימי הזה בדרכים שונות: בין אם במנוחה או בתנועה, בין אם בקצרה או באריכות. בחומרים שאותם תיקח הביתה יש הקלטה של תסריט המיינדפולנס הזה, ואני מזמינה אותך להקשיב להקלטה כל יום או יומיים בשבועיים הקרובים, ולחקור את התועלת שלה, במיוחד אל מול דאגה, מצוקה וחוסר וודאות - העננים והסערות שבראשינו. שאל את עצמך מה אתה לומד מההתנסויות שלך עם השיטה הזו. האם אתה יכול לראות שינויים עדינים המתרחשים בגישה שלך לדברים שמשתנים בחייך? האם אתה יכול לקחת את תמונת ההר איתך לתוך חיי היומיום שלך? האם אתה יכול לראות את ההר גם באנשים אחרים, ולאפשר להם להיות כמו שהם, כל הר והצורה הייחודית לו?"
+      ],
+      "en": [
+        "Sit in a comfortable way. Picture the most beautiful mountain you know or can imagine. Focus on its image and the feeling it invokes in you. Notice its overall shape. Imagine its peaks as well as its base, rooted into the earth's crust. The steep or gently sloping sides. Note how massive it is, how unmoving, how beautiful whether seen from afar or up close.",
+        "Perhaps your mountain has snow at the top and trees on the lower slopes. Perhaps it has one prominent peak, perhaps a series of peaks or a high plateau. However it appears, just sit and breathe with the image of this mountain, observing it, noting its qualities.",
+        "When you feel ready, see if you can bring the mountain into your own body so that your body sitting here and the mountain of the mind's eye become one. Your head becomes the lofty peak; your shoulders and arms the sides of the mountain; your buttocks and legs the solid base rooted to your cushion on the floor or to your chair. Experience in your body the sense of uplift, the elevated quality of the mountain deep in your own spine.",
+        "Invite yourself to become a breathing mountain, unwavering in your stillness, completely what you are - beyond words and thought, a centered, rooted, unmoving presence.",
+        "Now, as well you know, throughout the day as the sun travels the sky, the mountain just sits. Light and shadow and colors are changing virtually moment to moment in the mountain's stillness. As the light changes, as night follows day and day follows night, the mountain just sits, simply being itself. It remains still as the seasons flow into one another and as the weather changes moment by moment and day by day. Calmness abiding all change.",
+        "In spring, the mountain may be covered in blooming flowers; by the fall, these may lose their luster. In winter, clouds or fog could obscure it, or it may be pelted by freezing rain. The tourists who come to visit may be disappointed if they can't see the mountain clearly because of the fog, but it's all the same to the mountain - seen or unseen, in sun or clouds, broiling or frigid, it just sits, being itself. Unmoved by the weather, by what happens on the surface, by the world of appearances.",
+        "As we sit holding this image in our mind, we can embody the same unwavering stillness and rootedness in the face of everything that changes in our own lives over seconds, hours, and years. In our lives we experience constantly the changing nature of mind and body and of the outer world. We experience periods of light and dark, vivid color and drab dullness. We experience storms of varying intensity and violence, in the outer world and in our own lives and minds. We endure periods of darkness and pain as well as savoring moments of joy and uplift.",
+        "By becoming the mountain in our mind, we can link up with its strength and stability, and adopt them for our own. We can use its energies to support our efforts to encounter each moment with mindfulness, equanimity, and clarity. It may help us to see that our thoughts and feelings, our preoccupations, our emotional storms and crises, even the things that happen to us are much like the weather on the mountain.",
+        "Invoking the mountain within us can help us gain a sense of strength and stability. For the next couple of moments, I invite you to keep meditating on your connection to the mountain, quietly, until you hear the sound of the bell.",
+        "[after one minute - sound chime]",
+        "In daily life, we can invoke this image and feeling of this inner mountain in various ways: in stillness or motion, briefly or at greater length. In our materials, we've included a recording of this mindfulness script, and I invite you to listen to it every day or two for the next couple of weeks, and explore its usefulness, especially in the face of worry, adversity, and uncertainty - the clouds and storms in the mind. Ask yourself what you are learning from your experiments with this practice. Can you see some subtle transformation occurring in your attitude toward things that change in your life? Can you carry the mountain image with you in daily life? Can you see the mountain in others, and allow them their own shape and form, each mountain uniquely itself?"
+      ]
+    }
+  },
+  {
+    "id": "woop",
+    "type": "woop",
+    "name": {
+      "he": "WOOP - חזרה בדמיון (תרגול פעולה עתידית)",
+      "en": "WOOP - Imaginal Rehearsal"
+    },
+    "summary": {
+      "he": "תהליך מובנה בן ארבעה שלבים שמכין אותך לפעולה: משאלה, תוצאה, מכשול ותוכנית - ולבסוף חזרה בדמיון על ביצוע התוכנית.",
+      "en": "A structured four-step process that prepares you for action: Wish, Outcome, Obstacle, and Plan - and then an imaginal rehearsal of carrying out the plan."
+    },
+    "instructions": {
+      "he": [
+        "חזרה בדמיון היא תהליך בעל ארבעה שלבים שעוזר לנו להתכונן לפעולה. ניתן לסכם את ארבעת הצעדים בעזרת ראשי התיבות WOOP - מדמיינים את הפעולה הרצויה (Wished-for action), מדמיינים את התוצאה (Outcome) הרצויה של ביצוע פעולה זו, מזהים את המכשולים (Obstacles) שיכולים לעמוד בדרכך, וחושבים על תוכנית (Plan) שתעזור להתמודד עם מכשולים אלו, אותה מדמיינים לאחר מכן בצורה מפורטת.",
+        "אנחנו ממליצים לעשות את התרגול בעיניים עצומות, כדי שתוכל/י ליצור תמונות חדות וברורות ככל האפשר.",
+        "התחל/י מלעצום עיניים ולדמיין את עצמך מבצע/ת את הפעולה הרצויה. קח/י לפחות 30 שניות כדי לדמיין זאת בצורה מלאה.",
+        "עבור/עברי לתוצאה החיובית - תן/תני לעצמך ממש לדמיין איך זה מרגיש. קח/י לפחות 30-45 שניות כדי ממש להשקיע את עצמך בתוך התחושות האלו.",
+        "הפנה/הפני את המחשבות למכשולים שעלולים לעמוד בדרך. קח/י לפחות 30 שניות, או כמה זמן שאת/ה צריך/ה, כדי להכיר במכשולים האלו כפי שהם.",
+        "חשוב/חשבי על תוכנית שתעזור לך להתגבר עליהם. זהו צעד חשוב במיוחד; הקדש/הקדישי לו לכל הפחות דקה או שתיים.",
+        "לסיכום, דמיין/דמייני את עצמך מבצע/ת את התוכנית שעליה חשבת, מתגבר/ת על המכשולים, משלים/ה את הפעולה הרצויה, ומרגיש/ה את התוצאות החיוביות שבהן רצית. לאחר מכן כדאי לרשום לעצמך הערות או תוכניות קונקרטיות (לדוגמה, לקבוע זמן לבצע את שיחת הטלפון)."
+      ],
+      "en": [
+        "Imaginal rehearsal is a 4-step process recommended for preparing ourselves for action. The 4 steps can be summarized using the acronym WOOP: imagining a Wished-for action, imagining the desired Outcome of carrying this through successfully, recognizing the Obstacles that may stand in your way, and coming up with a Plan to overcome these, which is then imagined in detail.",
+        "We recommend you do this with your eyes closed, so that you could get really vivid and clear images.",
+        "Start by closing your eyes and imagining yourself carrying out the wished-for action. Take at least 30 seconds to really flesh this out.",
+        "Move to the positive outcome - really let yourself imagine what this feels like. Take at least 30-45 seconds to immerse yourself in these feelings.",
+        "Turn your thoughts to the obstacles you may encounter. Spend at least 30 seconds, or as much as needed, acknowledging the obstacles for what they are.",
+        "Devise a plan to overcome them. This is a particularly important step; devote at least 1-2 minutes to thinking through the plan.",
+        "To conclude, imagine yourself carrying out the plan you just devised, overcoming the obstacles, completing the wished-for action, and feeling the positive outcomes you wanted. After that, you may want to write down some notes or concrete plans (e.g., a scheduled time to make that phone call)."
+      ]
+    },
+    "fields": [
+      {
+        "id": "wish",
+        "label": {
+          "he": "משאלה (Wish) - הפעולה הרצויה",
+          "en": "Wish - the wished-for action"
+        },
+        "kind": "textarea",
+        "placeholder": {
+          "he": "דמיין/דמייני את עצמך מבצע/ת את הפעולה הרצויה, בצורה הכי חדה ומלאה שאפשר. איפה את/ה? מי סביבך? מה אומרים לך החושים? אילו משאבים דרושים לך?",
+          "en": "Imagine yourself carrying out the wished-for action, as vividly and fully as you can. Where are you? Who is around you? What do your senses tell you? What resources do you need?"
+        }
+      },
+      {
+        "id": "outcome",
+        "label": {
+          "he": "תוצאה (Outcome) - התוצאה החיובית",
+          "en": "Outcome - the positive outcome"
+        },
+        "kind": "textarea",
+        "placeholder": {
+          "he": "דמיין/דמייני את התוצאה החיובית של ביצוע הפעולה בהצלחה. איך זה מרגיש? מה יהיו הרגשות ואפילו התחושות הגופניות אם זה יקרה?",
+          "en": "Imagine the positive outcome that would follow from carrying out the action successfully. What does this feel like - what would your emotions and even physical reactions be if this occurs?"
+        }
+      },
+      {
+        "id": "obstacle",
+        "label": {
+          "he": "מכשול (Obstacle) - המכשולים",
+          "en": "Obstacle - the obstacles"
+        },
+        "kind": "textarea",
+        "placeholder": {
+          "he": "הפנה/הפני את המחשבות למכשולים שעלולים לעמוד בדרך. חשוב/חשבי עליהם בצורה ממש מפורטת - הכר/י בהם כפי שהם, גם אם הם משמעותיים.",
+          "en": "Turn your thoughts to the obstacles you may encounter. Do this in a really detailed way - acknowledge these obstacles for what they are, even if they may be formidable."
+        }
+      },
+      {
+        "id": "plan",
+        "label": {
+          "he": "תוכנית (Plan) - איך תתגבר/י על המכשולים",
+          "en": "Plan - how you'll overcome the obstacles"
+        },
+        "kind": "textarea",
+        "placeholder": {
+          "he": "חשוב/חשבי על תוכנית שתעזור לך להתגבר על המכשולים. אילו דברים בתוכנית יעזרו לך? איזו עזרה או אילו משאבים תצטרך/י, ואיך תשיג/י אותם?",
+          "en": "Devise a plan to overcome these obstacles. What provisions should you put into the plan? What help or resources would you need, and how will you go about getting them?"
+        }
+      }
+    ],
+    "moduleIds": [
+      "predictability",
+      "belonging",
+      "competence",
+      "control",
+      "play"
+    ],
+    "pdfHe": "0.2 Imaginal Rehearsal Handout - Hebrew.pdf",
+    "pdfEn": null
+  },
+  {
+    "id": "closenessCircles",
+    "type": "closenessCircles",
+    "name": {
+      "he": "מעגלי קרבה",
+      "en": "Closeness Circles"
+    },
+    "summary": {
+      "he": "מיפוי של האנשים החשובים בחייך במעגלים קונצנטריים לפי מידת הקרבה - כלי לקבל תמונה של העולם החברתי שלך ולזהות הזדמנויות לחיבור.",
+      "en": "A map of the important people in your life, placed in concentric circles by closeness - a tool for taking stock of your social world and identifying opportunities for connection."
+    },
+    "instructions": {
+      "he": [
+        "נשתמש בכלי הזה כדי לנסות למפות את האנשים החשובים בחייך כיום.",
+        "במרכז יש X שמסמן איפה את/ה נמצא/ת. סביב ה-X יש 3 מעגלים קונצנטריים, שהם המעגלים החברתיים השונים שלך. ככל שהמעגל יותר קרוב אליך, כך האנשים בו קרובים יותר אליך. זו הסיבה שהכלי נקרא \"מעגלי קרבה\".",
+        "חשוב/חשבי על האנשים שאיתם את/ה בא/ה במגע באופן שוטף, וגם על אלו שהיית רוצה להיות איתם במגע קרוב יותר. מקם/מקמי כל אחד מהם איפה שמרגיש לך נכון במעגלים. האזור הכי קרוב אליך הוא זה שבו תמקם/י את האנשים שאת/ה מרגיש/ה כלפיהם את הקרבה והאינטימיות הגדולה ביותר.",
+        "חשוב לזכור: קרבה היא סובייקטיבית. היא לא מתבססת על מרחק גיאוגרפי או תדירות פגישות. ייתכן אפילו שאת/ה מרגיש/ה קרוב/ה לאנשים שכבר לא חלק מחייך.",
+        "שאלות שיכולות לעזור: מי הם האנשים החשובים בחייך? למי את/ה פונה לתמיכה כשאת/ה זקוק/ה לעזרה? על מי את/ה יכול/ה לסמוך? למי את/ה מהווה מקור תמיכה? על מי את/ה חושב/ת ממש עכשיו? ממי הרגשת אהבה טובה, ומה גרם לזה? למי את/ה צריך/ה להגיד שאת/ה אוהב/ת? האם איבדת מישהו קרוב?",
+        "מטרת הכלי היא להגיע לתמונת מצב מפורטת ועמוקה של העולם החברתי ושל השלכותיו הרגשיות עליך, ודרך זה לזהות הזדמנויות ספציפיות לחיבור חזק יותר או משמעותי יותר - עם אנשים שבמעגלי הקרבה או מחוץ להם."
+      ],
+      "en": [
+        "We'll use this tool to try and map out the important people in your life, currently.",
+        "At the center is an X marking where you are. Around the X are 3 concentric circles, which are your different social circles. The closer the circle to you, the closer the people in it are to you. That's why we call this a \"closeness circles\" worksheet.",
+        "Think about the people you interact with on a regular basis, as well as those you wish you could interact with more, and place each of them wherever it feels appropriate in these circles. The area closest to you is where you would put those who feel very close and intimate to you.",
+        "Remember: closeness is subjective. It's not based on geography or frequency of interaction. You may even feel close to people who aren't in your life anymore.",
+        "Questions that can help: Who are the important people in your life? Who do you go to for support in critical times of need? Who do you depend on? Who do you support? Who are you thinking of right now? Who has loved you well, and how? Who do you need to tell that you love? Did you lose anybody close to you?",
+        "The objective of this technique is to reach a deeper understanding of your interpersonal terrain and its emotional implications for you, and through that to identify specific opportunities for greater or more meaningful engagement - with individuals in your social circles or on their periphery."
+      ]
+    },
+    "fields": [],
+    "moduleIds": [
+      "belonging"
+    ],
+    "pdfHe": null,
+    "pdfEn": null
+  },
+  {
+    "id": "gradedTask",
+    "type": "gradedTask",
+    "name": {
+      "he": "דירוג/פירוק מטלות",
+      "en": "Graded Task Assignment"
+    },
+    "summary": {
+      "he": "בחירת פעילות משמעותית אך מרתיעה, ופירוק שלה ל-6-10 יחידות קטנות וברות-השגה - כדי להתחיל, להגביר את הפעילות ולקטוע את ההימנעות.",
+      "en": "Choosing a meaningful but daunting activity and breaking it down into 6-10 small, achievable units - to get started, increase activation, and disrupt avoidance."
+    },
+    "instructions": {
+      "he": [
+        "בתור התחלה, עשה/י סיעור מוחות כדי להגיע לרשימה של פעילויות משמעותיות, נגישות וניתנות להשגה, שכרגע את/ה נמנע/ת מהן או שהן תקועות. כדאי שאלו תהיינה פעילויות משמעותיות, מורכבות, אבל גם מעשיות - כלומר, פעילויות שבעזרת המוטיבציה הנכונה והפיגומים הנכונים אפשר יהיה להשלים אותן בהצלחה.",
+        "בחר/י פעילות אחת כזו כדי להתמקד בה, ורשום/רשמי אותה כמטרה.",
+        "פרק/פרקי את המטרה הזו להתנהגויות ספציפיות וניתנות להשגה - באופן אידיאלי, לפחות 6-10 תת-מטרות או יחידות.",
+        "חשוב לזכור שהמטרה היא לא להשלים בבת-אחת את כל החלקים; היעד היותר חשוב הוא לעזור לך להתחיל את העבודה על משימות חשובות, להגביר את רמת הפעילות ולקטוע את ההימנעות.",
+        "צור/צרי מנגנון לניטור הפעילות או ההתקדמות: איך תעקוב/י אחרי היחידות השונות?",
+        "חשוב/חשבי על תמריצים שיכולים לתת לך מוטיבציה: שימוש באנשים קרובים כתמיכה, התחייבות פומבית ליצירת מחויבות ואחריות, ותגמולים עצמיים כחיזוק.",
+        "חלק מהותי מהעבודה הוא לפנות ליחידות מקום בלוח הזמנים שלך - שבץ/שבצי חלק (או כמה חלקים) מהמשימה המדורגת ביום או בשבוע הקרוב."
+      ],
+      "en": [
+        "To start, brainstorm together to create a list of meaningful, available, achievable activities that you currently avoid or that are stuck. It is useful if these activities are meaningful, difficult, but also feasible - i.e., activities that with the right motivation and scaffolding could be completed successfully.",
+        "Choose one of these to focus on, and write it down as your goal.",
+        "Break down the behaviors tied to this goal into specific, achievable units - ideally, at least 6-10 sub-goals or units.",
+        "It's important to remember that the goal is not to accomplish all parts at once; what this helps us do is get started on important tasks, increase activation, and disrupt avoidance.",
+        "Set up a monitoring or progress mechanism: how will you keep track of the different units?",
+        "Consider contingency-management tools that help motivate you: close others as support, public commitment for accountability, and self-reward for reinforcement.",
+        "A key part of the work is to make room for the units in your schedule - embed a part (or several parts) of the graded task in the coming day or week."
+      ]
+    },
+    "fields": [
+      {
+        "id": "goal",
+        "label": {
+          "he": "המטרה / הפעילות",
+          "en": "The goal / activity"
+        },
+        "kind": "text",
+        "placeholder": {
+          "he": "פעילות משמעותית אך מרתיעה שאת/ה רוצה להתחיל - למשל, פעילות שכרגע את/ה נמנע/ת ממנה או שהיא תקועה.",
+          "en": "A meaningful but daunting activity you want to start - e.g., one you currently avoid or that is stuck."
+        }
+      }
+    ],
+    "moduleIds": [
+      "competence"
+    ],
+    "pdfHe": null,
+    "pdfEn": null
+  },
+  {
+    "id": "selfKindnessMonitor",
+    "type": "monitor",
+    "name": {
+      "he": "דף רישום חמלה עצמית",
+      "en": "Self-Kindness Monitoring Sheet"
+    },
+    "summary": {
+      "he": "דף יומי שעוזר לך לתפוס רגעים של ביקורת עצמית - ולתרגל מולם קול חומל והרגעה עצמית, כדי להטות עם הזמן את הכף מנוקשות לחמלה.",
+      "en": "A daily sheet that helps you capture moments of self-criticism - and practice a compassionate voice and self-soothing in response, to gradually tip the balance from harshness to kindness."
+    },
+    "instructions": {
+      "he": [
+        "מטרת הדף הזה היא לעזור לך לתפוס רגעים יומיומיים של ביקורת עצמית - וגם רגעים הפוכים, של חמלה עצמית - ולתרגל את התהליך.",
+        "שים/שימי לב לביקורת העצמית שמתעוררת בך, ונסה/נסי לבטא במילים את המסרים הביקורתיים, התובעניים או המשפילים שלה. איך נשמעת הביקורת הזו? מה טון הדיבור שלה? באילו מילים היא משתמשת?",
+        "שים/שימי לב איך זה מרגיש לשמוע את הקול הזה, והאם נלוות אליו תחושות גופניות - חולשה, כאב בבטן, כבדות בחזה.",
+        "לאחר שמיקמת את הקול הביקורתי מחוץ לעצמך, ענה/עני לו ונסה/נסי לרכך את המסר שלו. המטרה היא לא להיכנס למלחמה עם הקול או למחוק אותו, אלא לעבוד יחד איתו על ריכוך.",
+        "עבור/עברי לנקודת המבט של הקול החומל, העצמי המיטיב - חשוב/חשבי על הסיטואציה כמו חבר אוהב. הדגש/הדגישי את האוניברסליות של הסיטואציה: \"לכולנו יש ימים טובים יותר וטובים פחות\".",
+        "בזמן שאת/ה משמיע/ה את הקול החומל, השתמש/י בטכניקות להרגעה עצמית - כמה נשימות עמוקות, ליטופים איטיים של הזרוע וכד'.",
+        "בסוף כל יום, רשום/רשמי לעצמך לפחות רגע אחד שעשית בו שימוש בחמלה עצמית במהלך היום. בהתחלה אלו אולי יהיו פעולות קטנות מאוד, אבל עם הזמן הן עשויות להטות את הכף בין נוקשות וביקורת לבין חמלה."
+      ],
+      "en": [
+        "The purpose of this sheet is to help you capture day-to-day moments of self-criticism - as well as opposite moments, of self-compassion - and to practice the process.",
+        "Notice the self-criticism that arises in you, and try to put into words its critical, demanding, or demeaning messages. What does the criticism sound like? What tone of voice does it have? What words does it use?",
+        "Notice what it feels like to hear this voice, and whether any body sensations accompany it - weakness, a knot in the stomach, heaviness in the chest.",
+        "Once you've placed the critical voice outside of you, speak back to it and try to soften its message. The point is not to battle the voice or erase it, but to work with it on softening up.",
+        "Switch to the perspective of the compassionate voice, the kind self - think of the situation as a loving friend would. Emphasize the universality of the situation: \"we all have better days and worse days\".",
+        "As you voice the compassionate voice, use self-soothing techniques - a couple of deep breaths, slow soothing strokes of your forearm, and so on.",
+        "At the end of each day, write down at least one instance of self-kindness you engaged in that day. At first these may be very small acts, but over time they may tip the balance between harshness and kindness in how you relate to yourself."
+      ]
+    },
+    "fields": [
+      {
+        "id": "situation",
+        "label": {
+          "he": "מה הייתה הסיטואציה?",
+          "en": "What was the situation?"
+        },
+        "kind": "textarea",
+        "placeholder": {
+          "he": "לדוגמה: אני קולט/ת שאני מאחר/ת להגיש משימה חשובה.",
+          "en": "For example: I realize I'm late in submitting an important assignment."
+        }
+      },
+      {
+        "id": "criticalVoice",
+        "label": {
+          "he": "איזה קול ביקורתי או קשוח שמעת בראש?",
+          "en": "What critical or harsh voice did you hear in your head?"
+        },
+        "kind": "textarea",
+        "placeholder": {
+          "he": "לדוגמה: \"אתה כשלון. אתה אף פעם לא עושה דברים כמו שצריך\".",
+          "en": "For example: \"You're a failure. You never do anything right.\""
+        }
+      },
+      {
+        "id": "feeling",
+        "label": {
+          "he": "איך זה הרגיש לשמוע את הקול הביקורתי? האם נלוו אליו תחושות גופניות?",
+          "en": "How did it feel to hear the critical voice? Were there any body sensations?"
+        },
+        "kind": "textarea",
+        "placeholder": {
+          "he": "לדוגמה: הרגשתי מטומטם, הרגשתי בושה, קטן ועלוב כמו חרק.",
+          "en": "For example: I felt stupid, I felt shame, small and wretched like an insect."
+        }
+      },
+      {
+        "id": "kindResponse",
+        "label": {
+          "he": "מה אמר הקול החומל?",
+          "en": "What did the compassionate voice say?"
+        },
+        "kind": "textarea",
+        "placeholder": {
+          "he": "לדוגמה: גם אם פישלת הפעם, אתה לא כשלון.",
+          "en": "For example: Even if you slipped up this time, you're not a failure."
+        }
+      },
+      {
+        "id": "soothingAct",
+        "label": {
+          "he": "באילו אמצעים מילוליים או לא מילוליים השתמשת כדי להרגיע את עצמך?",
+          "en": "What verbal or non-verbal means did you use to soothe yourself?"
+        },
+        "kind": "textarea",
+        "placeholder": {
+          "he": "לדוגמה: עשיתי הפסקה, יצאתי להליכה. התקשרתי לחברה שידעתי שתעודד אותי.",
+          "en": "For example: I took a break, went for a walk. I called a friend I knew would encourage me."
+        }
+      },
+      {
+        "id": "feelingAfter",
+        "label": {
+          "he": "איך זה הרגיש לשמוע את הקול החומל ולעסוק בהרגעה עצמית?",
+          "en": "How did it feel to hear the compassionate voice and engage in self-soothing?"
+        },
+        "kind": "textarea",
+        "placeholder": {
+          "he": "לדוגמה: הרגשתי שאני מצליחה לנשום, הרגשתי חמימות. זה גרם לי להרגיש נחוש יותר.",
+          "en": "For example: I felt I could breathe, I felt warmth. It made me feel more determined."
+        }
+      }
+    ],
+    "moduleIds": [
+      "selfworth"
+    ],
+    "pdfHe": "4.1 Self-worth - self kindness monitoring sheet - Hebrew draft.pdf",
+    "pdfEn": null
+  },
+  {
+    "id": "innerGuideMonitor",
+    "type": "monitor",
+    "name": {
+      "he": "דף מצפן פנימי",
+      "en": "Inner-Guide Monitoring Sheet"
+    },
+    "summary": {
+      "he": "דף יומי לתפיסת רגעים של בחירה אוטונומית ומודעת - להבחין בין מה שכוח חיצוני דוחף אותך לעשות לבין מה שהמצפן הפנימי שלך אומר.",
+      "en": "A daily sheet for capturing moments of self-determined, autonomous choice - distinguishing what an external force pushes you to do from what your inner guide tells you."
+    },
+    "instructions": {
+      "he": [
+        "מטרת הדף הזה היא לעזור לך לתפוס רגעים יומיומיים של בחירות אוטונומיות שמגיעות מתוכך.",
+        "כשעולה מצב שבו את/ה מרגיש/ה קושי במוטיבציה או תחושה שאת/ה לא בשליטה על קביעת סדרי העדיפויות שלך - שים/שימי לב מה היה הדבר שהכוח החיצוני (ציפיות, תגמולים, עונשים או אזהרות של אחרים) דחף אותך לעשות.",
+        "לאחר מכן, שים/שימי לב מה אמר לך לעשות המצפן הפנימי שלך - הקול שמגיע מתוך תחושת החירות והבחירה שלך.",
+        "שים/שימי לב מה קרה ברגשות ובגוף שלך תוך כדי - ומה את/ה שם/ה לב אליו כעת, כשאת/ה חושב/ת על החוויה בדיעבד.",
+        "מלא/י את הדף כמה פעמים במהלך השבוע, כדי לחזק את היכולת לזהות את המשאלות האוטונומיות שלך ולתמוך בנחישות שלך בקבלת החלטות."
+      ],
+      "en": [
+        "The purpose of this sheet is to help you capture daily moments of self-determined, autonomous choices that come from within you.",
+        "When a situation arises in which you feel a problem with being motivated to act, or a feeling that you're not in control of setting your priorities - notice what it was that the external force (others' expectations, rewards, punishments, or warnings) pushed you to do.",
+        "Then notice what your inner guide told you to do - the voice that comes from your own sense of freedom and choice.",
+        "Notice what happened in your emotions and body along the way - and what you notice now, as you reflect back on the experience.",
+        "Fill out the sheet several times over the week, to strengthen your ability to identify your autonomous wishes and support your resolve in making choices."
+      ]
+    },
+    "fields": [
+      {
+        "id": "situation",
+        "label": {
+          "he": "מה הייתה הסיטואציה?",
+          "en": "What was the situation?"
+        },
+        "kind": "textarea",
+        "placeholder": {
+          "he": "לדוגמה: אני שומע על סרט שאני רוצה לצפות בו אבל הוא מוקרן רק פעם אחת, וכבר קבעתי תוכניות לארוחת ערב עם חברה באותו הזמן.",
+          "en": "For example: I hear about a movie I want to watch, but it's only playing once, and I already made dinner plans with a friend at the same time."
+        }
+      },
+      {
+        "id": "externalForce",
+        "label": {
+          "he": "מה היה הדבר שהכוח החיצוני דחף אותך לעשות?",
+          "en": "What was it that the external force pushed you to do?"
+        },
+        "kind": "textarea",
+        "placeholder": {
+          "he": "לדוגמה: אל תשנה את תוכניות ארוחת הערב. זה לא נוח לחברה שלך והזמן שלה יקר יותר משלך.",
+          "en": "For example: Don't change the dinner plans. It's inconvenient for your friend and her time is more valuable than yours."
+        }
+      },
+      {
+        "id": "innerGuideSaid",
+        "label": {
+          "he": "מה אמר לך לעשות המצפן הפנימי שלך?",
+          "en": "What did your inner guide tell you to do?"
+        },
+        "kind": "textarea",
+        "placeholder": {
+          "he": "לדוגמה: זה הערב שלי. אני יכול לבחור איך לנצל אותו, ואני ארוויח יותר מזה שאראה את הסרט.",
+          "en": "For example: This is my evening. I get to choose how to use it, and I'll gain more from seeing the movie."
+        }
+      },
+      {
+        "id": "bodyEmotion",
+        "label": {
+          "he": "למה שמת לב ברגשות שלך ובגוף שלך?",
+          "en": "What did you notice in your emotions and body?"
+        },
+        "kind": "textarea",
+        "placeholder": {
+          "he": "לדוגמה: בהתחלה - מתח, אבל אז תחושה של חוזק פנימי.",
+          "en": "For example: At first - tension, but then a sense of inner strength."
+        }
+      },
+      {
+        "id": "reflectionNow",
+        "label": {
+          "he": "למה אתה שם לב כעת כשאתה חושב על החוויה?",
+          "en": "What do you notice now as you reflect on the experience?"
+        },
+        "kind": "textarea",
+        "placeholder": {
+          "he": "לדוגמה: אני שמח ששמתי לב למתח ולקונפליקט הפנימי כאן. גם אם הייתי מחליט לוותר על הסרט, זו הייתה החלטה שמגיעה מתוך כח ולא מתוך חולשה.",
+          "en": "For example: I'm glad I noticed the tension and inner conflict here. Even if I'd decided to skip the movie, it would have been a decision coming from strength, not weakness."
+        }
+      }
+    ],
+    "moduleIds": [
+      "control"
+    ],
+    "pdfHe": "5.1. Control - Inner guide record - Hebrew.pdf",
+    "pdfEn": null
+  },
+  {
+    "id": "decisionalBalance",
+    "type": "decisionalBalance",
+    "name": {
+      "he": "דף איזון החלטות",
+      "en": "Decisional Balance Sheet"
+    },
+    "summary": {
+      "he": "טבלת 2x2 ששוקלת באופן מלא את היתרונות והחסרונות של שתי אלטרנטיבות - כדי להכין את הקרקע לדיאלוג בין שתי העמדות ולהחלטה שמגיעה מתוך חירות.",
+      "en": "A 2x2 grid that fully weighs the benefits and costs of two alternatives - to set the stage for a dialogue between the two positions and for a decision that comes from freedom."
+    },
+    "instructions": {
+      "he": [
+        "כשאנחנו מתלבטים בין שתי אופציות, כדאי על פי רוב לשקול את כל ה\"צדדים\" בצורה מלאה. הדף הזה מלווה אותנו בחשיבה מקיפה על היתרונות והחסרונות של שתי אופציות - למשל, לעשות שינוי מול לא לעשות שינוי, לעשות \"מה שאנחנו צריכים\" מול \"מה שאנחנו רוצים\", או פשוט לבחור בין אלטרנטיבות.",
+        "התחל/י בלהגדיר מה היא כל אחת מהאלטרנטיבות (למשל: \"להגיד כן להזמנה\", מול \"להגיד לא להזמנה\").",
+        "בכל אחת מהתיבות, כתוב/כתבי את כל הסיבות שאת/ה יכול/ה לחשוב עליהן, בעד או נגד כל אחת מהאלטרנטיבות.",
+        "הדף הזה יכול לעזור להכין את הקרקע לדיאלוג בין שתי העמדות. נסה/נסי לתת קול לעמדה אחת (בעד אופציה 1 ונגד אופציה 2), ואז לעמדה השנייה (בעד אופציה 2 ונגד אופציה 1), כפי שנעשה בפגישה.",
+        "זכור/זכרי: בסופו של דבר, ההחלטה היא שלך. אחרי שנתת קול לשתי העמדות, שים/שימי לב איך את/ה מרגיש/ה בפנים, ומהי ההחלטה שמגיעה מתוך חירות ובחירה."
+      ],
+      "en": [
+        "When we're torn between two options, it's usually worth weighing all the \"sides\" fully. This sheet accompanies us in comprehensive thinking about the benefits and costs of two options - for example, making a change vs. not making a change, doing \"what we need\" vs. \"what we want\", or simply choosing between alternatives.",
+        "Start by defining what each of the alternatives is (for example: \"say yes to the invitation\" vs. \"say no to the invitation\").",
+        "In each of the boxes, write down all the reasons you can think of, for or against each of the alternatives.",
+        "This sheet can help set the stage for a dialogue between the two positions. Try to give voice to one position (in favor of Option 1 and against Option 2), and then to the other position (in favor of Option 2 and against Option 1), as we did in the session.",
+        "Remember: ultimately, the decision is yours. After giving voice to both positions, notice how you feel inside, and what decision comes from freedom and choice."
+      ]
+    },
+    "fields": [
+      {
+        "id": "optionA_decision",
+        "label": {
+          "he": "אופציה 1 - שם האלטרנטיבה",
+          "en": "Option 1 - name of the alternative"
+        },
+        "kind": "text",
+        "placeholder": {
+          "he": "לדוגמה: \"להגיד כן להזמנה\" / \"לעשות שינוי\".",
+          "en": "For example: \"Say yes to the invitation\" / \"Make a change\"."
+        }
+      },
+      {
+        "id": "optionA_benefits",
+        "label": {
+          "he": "אופציה 1 - יתרונות / רווחים",
+          "en": "Option 1 - benefits / gains"
+        },
+        "kind": "textarea",
+        "placeholder": {
+          "he": "כתוב/כתבי את כל הסיבות שאת/ה יכול/ה לחשוב עליהן בעד אופציה 1.",
+          "en": "Write down all the reasons you can think of in favor of Option 1."
+        }
+      },
+      {
+        "id": "optionA_costs",
+        "label": {
+          "he": "אופציה 1 - חסרונות / מחירים",
+          "en": "Option 1 - costs / drawbacks"
+        },
+        "kind": "textarea",
+        "placeholder": {
+          "he": "כתוב/כתבי את כל הסיבות נגד אופציה 1.",
+          "en": "Write down all the reasons against Option 1."
+        }
+      },
+      {
+        "id": "optionB_decision",
+        "label": {
+          "he": "אופציה 2 - שם האלטרנטיבה",
+          "en": "Option 2 - name of the alternative"
+        },
+        "kind": "text",
+        "placeholder": {
+          "he": "לדוגמה: \"להגיד לא להזמנה\" / \"לא לעשות שינוי\".",
+          "en": "For example: \"Say no to the invitation\" / \"Don't make a change\"."
+        }
+      },
+      {
+        "id": "optionB_benefits",
+        "label": {
+          "he": "אופציה 2 - יתרונות / רווחים",
+          "en": "Option 2 - benefits / gains"
+        },
+        "kind": "textarea",
+        "placeholder": {
+          "he": "כתוב/כתבי את כל הסיבות בעד אופציה 2.",
+          "en": "Write down all the reasons in favor of Option 2."
+        }
+      },
+      {
+        "id": "optionB_costs",
+        "label": {
+          "he": "אופציה 2 - חסרונות / מחירים",
+          "en": "Option 2 - costs / drawbacks"
+        },
+        "kind": "textarea",
+        "placeholder": {
+          "he": "כתוב/כתבי את כל הסיבות נגד אופציה 2.",
+          "en": "Write down all the reasons against Option 2."
+        }
+      }
+    ],
+    "moduleIds": [
+      "control"
+    ],
+    "pdfHe": "5.2 Decisional Balance sheet - Hebrew.pdf",
+    "pdfEn": null
+  },
+  {
+    "id": "pleasurableActivities",
+    "type": "pleasurableActivities",
+    "name": {
+      "he": "דף עבודה של פעילויות מהנות",
+      "en": "Pleasurable Activities Worksheet"
+    },
+    "summary": {
+      "he": "יצירת \"תפריט\" של פעילויות מהנות בטווחי זמן שונים - כאלה שאת/ה כבר עושה, כאלה שעשית בעבר, וכאלה שעדיין לא ניסית - לשימוש עתידי.",
+      "en": "Building a \"menu\" of pleasant activities across different time durations - ones you already do, ones you used to do, and ones you've yet to try - for future use."
+    },
+    "instructions": {
+      "he": [
+        "ניקח כמה דקות כדי להיות יצירתיים ולייצר \"תפריט\" של פעילויות נעימות - חלקן סבירות יותר, אחרות אולי פחות - לשימוש עתידי.",
+        "הדף נותן לנו דרך לחשוב על נעימות כמשהו שתופס אורך זמן מסוים - החל משניות או דקות ועד שבועות או חודשים - ושיכול לכלול פעילויות שאת/ה כבר נהנה/נהנית מהן, כאלה שנהנית מהן בעבר, וכן כאלה שעדיין לא ניסית.",
+        "הרשת בנויה משלוש עמודות סטטוס: \"עשיתי בעבר אבל כיום לא\", \"עושה כיום\", ו\"עוד לא ניסיתי\".",
+        "והשורות הן טווחי זמן: פחות מ-30 שניות; 30 שניות-2 דקות; 2 דקות-10 דקות; 10 דקות-30 דקות; 30 דקות-2 שעות; 2 שעות-5 שעות; 5 שעות-12 שעות; 12 שעות-יום; יום-יומיים; יומיים-שבוע; יותר משבוע.",
+        "מלא/י לפחות 2 פעילויות בכל עמודה, ואז המשך/המשיכי למלא את שאר הדף בבית - הוסף/הוסיפי רעיונות, אפילו \"מטורפים\".",
+        "לאחר מכן, בחר/בחרי 1-2 פעילויות מהדף כדי לחקור אותן לעומק ולתרגל בדמיון."
+      ],
+      "en": [
+        "We'll take a few minutes to get creative and generate a \"menu\" of pleasant activities - some more likely, others maybe less so - for future use.",
+        "The sheet gives us a way of thinking of pleasantness as something that takes up some length of time - ranging from seconds or minutes to weeks or months - and that may include activities you already enjoy, ones you used to enjoy, as well as ones you've yet to try.",
+        "The grid has three status columns: \"Did in the past but not now\", \"Doing currently\", and \"Haven't tried yet\".",
+        "And the rows are time durations: less than 30 seconds; 30 seconds-2 minutes; 2 minutes-10 minutes; 10 minutes-30 minutes; 30 minutes-2 hours; 2 hours-5 hours; 5 hours-12 hours; 12 hours-a day; a day-two days; two days-a week; more than a week.",
+        "Fill in at least 2 activities in each column, then keep completing the rest of the sheet at home - add ideas, even \"crazy\" ones.",
+        "Then pick 1-2 activities from the sheet to explore in depth and rehearse in your imagination."
+      ]
+    },
+    "fields": [],
+    "moduleIds": [
+      "play"
+    ],
+    "pdfHe": "6.1 Pleasure-Play - Pleasurable activities worksheet - Hebrew.pdf",
+    "pdfEn": null
+  },
+  {
+    "id": "threeGoodThings",
+    "type": "journal",
+    "name": {
+      "he": "שלושה דברים טובים ביום",
+      "en": "Three Good Things a Day"
+    },
+    "summary": {
+      "he": "יומן יומי שבו את/ה בוחר/ת שלושה דברים טובים מהיום ומשלים/ה אותם - שגרה שעוזרת להעריך ולהתענג על רגעים מתגמלים.",
+      "en": "A daily journal in which you choose three good things from your day and complete them - a routine that helps you appreciate and savor rewarding moments."
+    },
+    "instructions": {
+      "he": [
+        "בכל יום, בחר/בחרי שלושה מהמשפטים המוצעים והשלם/השלימי אותם. נסה/נסי לעבור דרך כל (או רוב) המשפטים במהלך השבוע.",
+        "מטרת הכלי היא לעזור לך להיכנס לשגרה - באופן אידיאלי, שגרה יומית - של תרגול המשימה הקשה של הערכה והתענגות על רגעים מתגמלים.",
+        "רישום יומי של רגעים כאלה הוא דרך טובה \"לאלץ\" את עצמנו לקיים את השגרה הזו. יש שקוראים לזה \"יומן הכרת תודה\" או \"יומן שלושה דברים טובים ביום\" - בחר/בחרי את השם שמתאים לך, או צור/צרי גרסה משלך.",
+        "רעיונות למשפטים להשלמה: דבר טוב אחד שקרה לי / דבר טוב שראיתי מישהו עושה / משהו שהשגתי היום / משהו מצחיק שקרה / מישהו שהרגשתי כלפיו הוקרת תודה היום / היום חייכתי כש... / היום היה מיוחד כי... / היום הייתי גאה בעצמי כי... / משהו מעניין שקרה / היום היה לי כיף כש... / החלק שהכי אהבתי מהיום שלי היה... / משהו ששמחתי בו היום / משהו שהצלחתי בו היום / משהו שהודיתי עליו היום / משהו לגבי היום שארצה לזכור לתמיד."
+      ],
+      "en": [
+        "Each day, choose three of the suggested sentences and complete them. Try to go through all (or most) of the sentences over the course of the week.",
+        "The purpose of this tool is to help you get into a routine - ideally, a daily one - of practicing the really hard task of appreciating and savoring rewarding moments.",
+        "Keeping a daily log of such moments is a good way of \"forcing\" ourselves to have this routine. Some people call it a \"gratitude journal\" or a \"Three Good Things a Day journal\" - choose the name that suits you, or create a version of your own.",
+        "Ideas for sentences to complete: one good thing that happened to me / a good thing I saw someone do / something I achieved today / something funny that happened / someone I felt grateful toward today / today I smiled when... / today was special because... / today I was proud of myself because... / something interesting that happened / today I had fun when... / the part I loved most about my day was... / something I was glad about today / something I succeeded at today / something I gave thanks for today / something about today I'd want to remember forever."
+      ]
+    },
+    "fields": [
+      {
+        "id": "good1",
+        "label": {
+          "he": "דבר טוב ראשון",
+          "en": "First good thing"
+        },
+        "kind": "textarea",
+        "placeholder": {
+          "he": "לדוגמה: דבר טוב אחד שקרה לי / משהו שהשגתי היום / משהו מצחיק שקרה / משהו ששמחתי בו היום.",
+          "en": "For example: one good thing that happened to me / something I achieved today / something funny that happened / something I was glad about today."
+        }
+      },
+      {
+        "id": "good2",
+        "label": {
+          "he": "דבר טוב שני",
+          "en": "Second good thing"
+        },
+        "kind": "textarea",
+        "placeholder": {
+          "he": "לדוגמה: מישהו שהרגשתי כלפיו הוקרת תודה היום / היום חייכתי כש... / משהו מעניין שקרה.",
+          "en": "For example: someone I felt grateful toward today / today I smiled when... / something interesting that happened."
+        }
+      },
+      {
+        "id": "good3",
+        "label": {
+          "he": "דבר טוב שלישי",
+          "en": "Third good thing"
+        },
+        "kind": "textarea",
+        "placeholder": {
+          "he": "לדוגמה: היום הייתי גאה בעצמי כי... / החלק שהכי אהבתי מהיום שלי היה... / משהו שהצלחתי בו היום.",
+          "en": "For example: today I was proud of myself because... / the part I loved most about my day was... / something I succeeded at today."
+        }
+      },
+      {
+        "id": "lesson",
+        "label": {
+          "he": "מה אני לומד/ת מזה",
+          "en": "What I learn from this"
+        },
+        "kind": "textarea",
+        "placeholder": {
+          "he": "מה את/ה לוקח/ת מהדברים הטובים של היום?",
+          "en": "What do you take from the good things of your day?"
+        }
+      }
+    ],
+    "moduleIds": [
+      "play"
+    ],
+    "pdfHe": "6.2 Pleasure-play - Three Good Things - Hebrew handout.pdf",
+    "pdfEn": null
+  },
+  {
+    "id": "guidedReflection",
+    "type": "guidedReflection",
+    "name": {
+      "he": "רפלקציה מודרכת - חמלה עצמית",
+      "en": "Guided Reflection - Self-Compassion"
+    },
+    "summary": {
+      "he": "גרסה עצמית ומודרכת לתרגול חמלה עצמית: להבחין בקול הביקורתי, לרכך אותו, ולעבור לקול חומל ומרגיע. הדיאלוג המלא של שני הכיסאות מונחה על ידי מטפל/ת.",
+      "en": "A self-guided version of the self-compassion practice: notice the critical voice, soften it, and shift to a kind, soothing voice. The full two-chair dialogue is therapist-led."
+    },
+    "instructions": {
+      "he": [
+        "ההנחיות שלמטה לוקחות את הרעיונות של חמלה עצמית ומספקות הכוונה לתרגול שלהם בבית. המטרה היא לחזק את מה שאנחנו מכנים חמלה עצמית, ולעזור לה להחליף את הביקורת העצמית. אפשר לרשום את הדברים, לדבר בשקט לעצמך, או לעשות את כל התרגול בשקט.",
+        "הצעד הראשון לחמלה עצמית כולל הפניית תשומת לב לביקורת העצמית שמתעוררת בך. זה לא תמיד קל - ביקורת עצמית לפעמים נשמעת לנו כמו \"האמת\". ובכל זאת, נסה/נסי לבטא את המסרים הביקורתיים, התובעניים או המשפילים שלה במילים. איך נשמעת הביקורת הזו? מה טון הדיבור שלה? באילו מילים היא משתמשת? האם היא דומה למישהו שאת/ה מכיר/ה שהיה או עדיין ביקורתי כלפיך?",
+        "נסה/נסי לראות את הקול הביקורתי הזה כדמות היושבת מולך ומדברת אליך. שים/שימי לב איך את/ה מרגיש/ה כשאת/ה שומע/ת אותו - האם יש תגובה גופנית כלשהי, חולשה, כאב בבטן, כבדות בחזה? אילו רגשות או מחשבות את/ה מבחין/ה בהם?",
+        "לאחר שמיקמת את הקול הביקורתי מחוץ לעצמך, נסה/נסי לענות לו ולרכך את המסר שלו. אפשר להגיד משהו כמו \"אני יודע למה אתה מופיע, ואני מבין שיש לך כוונות טובות, אבל המילים והטון האלו לא עוזרים\". המטרה היא לא להיכנס למלחמה עם הקול הביקורתי או למחוק אותו, אלא לעבוד יחד איתו על ריכוך, כך שההשפעה שלו עליך תקשה עליך פחות.",
+        "כשאת/ה מוכן/ה, עבור/עברי לנקודת המבט של הקול החומל, העצמי המיטיב. מנקודת המבט הזו, חשוב/חשבי על הסיטואציה כמו חבר אוהב, כפי שהיית עושה כלפי חבר. דבר/דברי הן עם החלק המבוקר והן עם החלק הביקורתי, ונסה/נסי להדגיש את האוניברסליות של הסיטואציה: \"לכולנו יש ימים טובים יותר וטובים פחות\"; \"גם אם כן פישלת ברגע הספציפי הזה, זה לא אומר שאתה תמיד כשלון\"; \"למה אתה זקוק כדי להפוך את הדברים לטובים יותר עכשיו?\".",
+        "בזמן שאת/ה משמיע/ה את הקול החומל, השתמש/י בטכניקות להרגעה עצמית - כמה נשימות עמוקות, יד על הלב, ליטופים איטיים של הזרוע וכד'. פעולות הרגעה עצמית כאלו נוטות להפעיל את המערכת המרגיעה של הגוף (המערכת הפרה-סימפתטית) גם אם המחשבות או הרגשות שלך עוד לא שם.",
+        "ההנחיות כאן הן גרסה עצמית ומודרכת. את הדיאלוג המלא בין שני הכיסאות - הכיסא הביקורתי והכיסא החומל - מיטיבים לעשות בליווי של מטפל/ת בפגישה."
+      ],
+      "en": [
+        "The instructions below take the ideas of self-kindness and provide guidance for practicing them at home. The aim is to strengthen what we refer to as self-kindness, and to help it replace self-criticism. You can write things down, speak silently to yourself, or do this work in silence.",
+        "The first step towards self-kindness involves noticing your own self-criticism. This isn't always easy - self-criticism sometimes sounds like \"the truth\". Still, try to put into words its critical, demanding, or demeaning messages. What does the criticism sound like? What tone of voice does it have? What words does it use? Is this voice similar to someone you know who was or is critical of you?",
+        "Try to see this critical voice as a figure sitting across from you, speaking to you. Notice what it feels like to hear it - is there any physical reaction, weakness, a knot in your stomach, heaviness in your chest? What emotions or thoughts do you notice?",
+        "Once you've placed the critical voice outside of you, try to speak back to it and soften its message. You might say something like \"I know why you show up, and I get that you have my best interests at heart, but these words and this tone aren't helping\". The point is not to battle the critical voice or erase it, but to work with it on softening up, so that its effect on you is less upsetting.",
+        "When you're ready, switch to the perspective of the kind voice, the compassionate self. From this perspective, think of the situation in a friendly and caring way, as you would toward a friend. Speak to both your criticized and critic selves, and try to emphasize the universality of the situation: \"we all have better days and worse days\"; \"even if you did screw up in this specific moment, that doesn't make you a screw-up\"; \"what is it you need to make things better now?\".",
+        "As you voice the kind voice, use self-soothing techniques - a couple of deep breaths, a hand over your heart, slow soothing strokes of your forearm, and so on. These self-soothing acts tend to activate the body's calming (parasympathetic) system even if your thoughts and feelings aren't there yet.",
+        "These instructions are a self-guided version. The full two-chair dialogue - the critical chair and the compassionate chair - is best done with a therapist in session."
+      ]
+    },
+    "fields": [],
+    "moduleIds": [
+      "selfworth"
+    ],
+    "pdfHe": "4.2. Self-Worth - self-kindness practice instructions - Hebrew.pdf",
+    "pdfEn": null
+  }
+]

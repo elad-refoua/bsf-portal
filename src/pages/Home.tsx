@@ -5,6 +5,7 @@ import { UI } from "@/lib/ui-strings";
 import { NEED_ORDER, NEEDS_META } from "@/lib/needs-meta";
 import { Container, Section, Card, LinkButton } from "@/components/ui/primitives";
 import Logo from "@/components/Logo";
+import AssetImage from "@/components/AssetImage";
 
 export default function Home() {
   const { t, lang } = useLang();
@@ -40,6 +41,15 @@ export default function Home() {
                 en: "CATAN is a brief, needs-focused intervention. Here you'll find accessible knowledge, tools to practice, and the full protocol for therapists.",
               })}
             </p>
+          </div>
+
+          {/* Hero illustration (degrades gracefully if not yet generated) */}
+          <div className="mx-auto mt-10 max-w-4xl overflow-hidden rounded-xl2 shadow-soft">
+            <AssetImage
+              src="images/hero.png"
+              alt={t({ he: "נוף גבעות רגוע ההולך אל הר יציב", en: "A calm landscape of hills leading to a steady mountain" })}
+              className="h-56 w-full object-cover sm:h-72"
+            />
           </div>
 
           {/* Two doors */}

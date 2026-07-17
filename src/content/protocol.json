@@ -1,0 +1,178 @@
+{
+  "genericIntro": {
+    "title": {
+      "he": "מבוא כללי",
+      "en": "Generic Introduction"
+    },
+    "minutes": 8,
+    "body": {
+      "he": [
+        "הציגי את עצמך: שלום, אני ______ ואני שמחה לפגוש אותך היום, כדי לעבוד יחד על מענה טוב יותר לקשיים שהובילו אותך להירשם למחקר שלנו.",
+        "כמו שאתה יודע, חלק מהמשתתפים במחקר הזה הוקצו לטיפול/התערבות טיפולית סטנדרטית, וחלקם לטיפול/להתערבות טיפולית מותאמת אישית, שהיא מעט שונה. שנינו לא יודעים באיזה תנאי אתה, אבל בתור המטפלת שעובדת איתך, התפקיד שלי יהיה לעבוד איתך עם התוכנית הטיפולית הזו, מתוך ההנחה שהיא מתאימה לעזור לך - הנחה מבוססת, כי החוקרים שתכננו את המחקר הזה הם מומחים בטיפול בחרדה ובדיכאון, והם פסיכולוגים קליניים בכירים בארץ ובארה\"ב. כל ההתערבויות, כולל הסטנדרטית, תוכננו להיות יעילות בעזרה לאנשים עם תסמינים או קשיים כמו אלה שאתה חווה. זאת הסיבה שהיינו צריכים לעשות סינון ראשוני ואז ראיון אבחוני מפורט - צוות המחקר התאים את הטיפול במחקר הזה לטווח מסווים של תסמינים. לכן, אני רוצה להבטיח לך שגם אם אתה בקבוצה המקבלת התערבות סטנדרטית, אתה כנראה תרגיש שהפגישה הזו רלוונטית לחוויות שלך.",
+        "סדר היום: נתחיל רגע עם סיכום מהיר של סדר היום - אני יודעת שרכזת המחקר כבר עברה איתך על זה, אבל כדאי לחזור על זה שוב כדי לוודא שזה ברור.",
+        "יהיו לנו 90 דקות בפגישה היום, ותהיה לנו גם פגישת מעקב (check-in) בזום בעוד שבועיים בערך. את המועד המדויק שלה נקבע לקראת סוף הפגישה שלנו היום.",
+        "בגלל שיש לנו, בכוונה, מסגרת זמנים ומבנה מוגדרים מאוד, אני לא אצלול עמוק מידי לתוך המצוקה שאיתה אתה מתמודד או להיסטוריה שלה. כמובן, אני רוצה שתרגיש חופשי לחלוק איתי את המחשבות או הרגשות שלך לגבי מה שאנחנו עושים. ועדיין, 90 הדקות שלנו יחד הן יחסית קצרות ולכן אני אנסה לשמור אותנו ממוקדים.",
+        "אתה תראה אותי משתמשת בדפים האלה לא מעט - זו הדרך שלי לוודא שאני לא שוכחת שום דבר חשוב, ושומרת על המבנה של הפגישה שלנו.",
+        "אתה לא צריך לדאוג לזכור או לכתוב דברים לאורך הפגישה - למרות שאתה לגמרי מוזמן לעשות זאת אם מתאים לך. כמו שאתה יודע, אנחנו מצלמים ומקליטים את הפגישה הזו ונעביר לך את ההקלטה לפני שתעזוב היום. אנחנו גם נשלח לך במייל לינק עם כל החומרים הרלוונטיים."
+      ],
+      "en": [
+        "Introduce yourself: I'm _____ and I'm happy to meet you and have this time today to work together towards addressing the difficulties that made you enroll in our study.",
+        "As you know, some of the participants in this study have been assigned to a standardized intervention, and some to a personalized intervention, which differs only a bit from the standardized version. Neither you nor I know which condition you are in. As the therapist assigned to work with you, it'll be my job to provide the following treatment plan with the assumption that it is well-suited to helping you with your needs, which is a fair assumption, as the researchers who designed this study are experts in the treatment of anxiety and depression and the lead researcher is a licensed clinical psychologist in California. The standardized intervention has been designed to be an effective treatment for individuals with symptoms or difficulties such as yours. This is why you were asked to complete a preliminary screening and then a structured diagnostic interview - the research team has matched the treatments in the current study with a fairly narrow set of symptomatic experiences. So, I want to assure you that, even if you are in the standardized condition, you will likely find the session we'll have to be relevant to your experiences.",
+        "Set an agenda: Let's start with a quick recap of today's agenda - I know the research coordinator went over this, but it's worth reviewing it to be sure it's clear.",
+        "We'll have 90 minutes for our meeting today, and we'll also have a brief follow-up check-in on zoom in a couple of weeks. We'll schedule that one towards the end of our meeting today.",
+        "Because we have a very set time and structure, I won't have a chance to dive too deeply into the distress you've been dealing with or its history. Of course, I want you to feel free to share your thoughts or feelings about what we are doing; still, our 90 minutes together are relatively short and thus I'll try to keep us focused. You'll see me using this manual quite a bit - this is my way of making sure I'm keeping to the structure and not leaving anything out.",
+        "Oh, and don't worry about needing to remember anything or writing it down - as the research coordinator has told you, we are recording this session and we will provide you with the audio recording before you leave today, together with all the relevant materials we'll work with."
+      ]
+    }
+  },
+  "psychoeducation": {
+    "title": {
+      "he": "פסיכואדוקציה",
+      "en": "Psychoeducation"
+    },
+    "patient": {
+      "he": [
+        "הפגישה שלנו היום - וכל הפרויקט הזה בעצם - מתבססים על הרעיון שבעבודה ממוקדת, אפילו פגישת התערבות אחת (עם קצת עבודת תרגול שתעשה בעצמך לפני שיחת המעקב שלנו) יכולה להשפיע בצורה ממשית ומשמעותית בבעיות ספציפיות.",
+        "לעתים קרובות, הבעיות שלנו מופיעות בדמות רגשות שקשה לחוות, מחשבות שמציקות לנו, או הרגלים שהיינו רוצים להפחית או להגביר. אבל מתחת לבעיות האלה, יש הרבה פעמים תחושה שיש איזה צורך רגשי בסיסי, שלא מקבל מענה מספק. אני אגיד משהו שאולי מובן מאליו - אנחנו רואים צרכים כבריאים ביסודם - צרכים מנחים אותנו ועוזרים לנו לתפקד. ברור שלפעמים צרכים מתנגשים זה בזה, ושאי אפשר לספק את כל הצרכים שלנו כל הזמן. ובכל זאת, דרך טובה לעלות על מסלול טוב יותר לעצמינו עוברת דרך זיהוי של צרכים, ודרך ניסיון להבין אילו מהם דורשים כיוונון מסויים כדי שהם יקבלו מענה מלא יותר.",
+        "אולי הדרך הכי טובה להכיר את הצרכים הלא מסופקים שלנו היא לשים לב לרגשות הלכאורה \"שליליים\" שלנו. למרות שאנחנו קוראים להם \"שליליים\", אין בעצם רגשות \"רעים\" - כך שהמילה \"שליליים\" היא סוג של הגדרה לא נכונה.",
+        "בוא נחשוב רגע על כאב פיזי בתור דוגמא: למרות שהוא לא נעים, הוא ממש חשוב להישרדות שלנו. כאב מספק מידע חיוני על הסביבה שלנו, ובלעדיו יש לנו סיכוי נמוך יותר לשרוד.",
+        "רגשות ממלאים את אותו תפקיד. הם מספקים מידע חיוני על מה שקורה סביבנו ואיך זה משפיע עלינו, והם יכולים לעזור לנו לבחור התנהגויות שמקדמות את המטרות שלנו.",
+        "רגשות גם מעבירים מידע לסובבים אותנו. כעס אומר, \"תתרחקו ממני\". עצב מתקשר לאחרים שנפגענו ושאנחנו נזקקים לדאגה או טיפול. בקיצור, רגשות מספקים מידע חיוני גם לעצמנו וגם לאחרים, והם אבולוציוניים במקורם - הם עוזרים לנו לשרוד.",
+        "יחד עם זאת, קורה שהרגשות שלנו מנחים אותנו בכיוון לא נכון - למשל, כשהדברים שאנחנו חוששים מהם לא מהווים איום אמיתי לנו או לגוף שלנו, ואין באמת צורך לברוח מהם. למעשה, הנטייה שלנו לברוח מרגשות שליליים - מה שאנחנו מכנים 'הימנעות' - היא אחת הדרכים \"הטובות\" לשמר את הבעיה כבעיה. הסיבה לכך היא שהימנעות מרגשות שליליים לא מתמודדת עם שורש הבעיה, ולכן בדרך כלל מחמירה אותה, מה שרק מגביר את המצוקה שלנו ומאריך את הסבל שלנו בטווח הארוך יותר.",
+        "דרך טובה בהרבה להתמודד עם רגשות שליליים היא דווקא להכיר אותם יותר טוב, להבין את הגורמים שבבסיסם, ולזהות את האופן שבו הם מפריעים לנו לסיפוק טוב יותר של הצרכים שלנו.",
+        "כדי לעשות את זה, אנחנו צריכים להתחבר לרגשות בכוונה, באמצעות מה שאנו מכנים חשיפות, סוג של תרגול שמאפשר לנו לחוות את הרגשות השליליים שלנו בצורה מבוקרת. אני מאמינה שזה, יחד עם כלים נוספים שנכיר היום, יאפשר לך למצוא מענה טוב יותר לצרכים הרגשיים שלך. ברור שהכלים האלה ידרשו תרגול ותחזוקה: בדיוק כמו כשלומדים נגינה, ספורט, או אמנות כלשהי, שינוי הדרך בה אתה חושב, מרגיש ומתנהג דורש תרגול! לא משנה כמה מועיל יהיה המפגש שלנו היום, סביר להניח שהחלק החשוב ביותר בו יהיה החלק לקראת הסוף, שבו נחשוב יחד איך לעזור לך לאמץ את הרעיונות האלה ולשזור אותם לתוך חיי היומיום האמיתיים שלך."
+      ],
+      "en": [
+        "Our meeting today - and this entire project - are based on the idea that with focused work, even a single intervention meeting (and some follow-up work you'll do on your own before our check-in) can have a substantial, meaningful impact in specific problem areas.",
+        "Often, our problems take the form of feelings that are hard to experience, thoughts that trouble us, or behaviors we'd like to do more or less of. But underlying many of these problems is often a sense that some basic emotional need isn't fully addressed. Just to state the obvious - we see needs as fundamentally healthy - they guide us and help us function. Now, obviously, some needs may contrast with each other, and it's impossible to have all our needs met all the time. Still, identifying needs and trying to figure out which ones require some tweaking to be met more fully is a very effective way of getting ourselves on track.",
+        "Importantly, the best way to become familiar with our unmet needs is by attending to our so called 'negative' emotions. Though we call them negative, there aren't actually any BAD emotions or feelings, so \"negative\" is sort of the wrong word.",
+        "Consider physical pain: although it's unpleasant, it is incredibly important to our survival. It provides vital information about the environment, and without it we are less likely to survive.",
+        "Emotions serve the same function. They provide vital information about our immediate reactions to the environment and can help us select behaviors that promote our goals.",
+        "Emotions also transmit information to those around us. Anger says, \"stay away.\" Sadness communicates to others that we've been injured and require tending to. So, emotions provide vital information to ourselves and others, and are evolutionary in their origin - they help us survive.",
+        "However, sometimes our emotions guide us in the wrong direction - the things that we're afraid of aren't actually a threat to our bodily well-being and we don't need to run from them. In fact, our tendency to run away from negative emotions - what we call 'avoidance' - is one of the \"best\" ways to keep a problem problematic. This is because avoiding negative emotions does not deal with the root problem and typically makes it worse, only increasing our distress and prolonging our suffering in the long run.",
+        "A much better way of dealing with negative emotions is to become familiar with them, with their underlying causes, and with how they interfere with getting our needs met.",
+        "To do that, we have to engage with the emotions intentionally, through what we call exposures, a kind of practice that allows us to experience our negative emotions in a controlled manner. Once we do that, we can also introduce additional tools that can help in getting more of your emotional needs met. Of course, these tools will require practice and maintenance: Just like learning an instrument, or an artform, or mastering a sport, changing the way you think, feel, and behave takes practice! So as useful as today's session may be, the most important part of it is likely to be the part towards the end, where we think about how to get you to take on these ideas and weave them into your actual daily life."
+      ]
+    },
+    "therapist": {
+      "he": [
+        "הפגישה שלנו היום - וכל הפרויקט הזה בעצם - מתבססים על הרעיון שבעבודה ממוקדת, אפילו פגישת התערבות אחת (עם קצת עבודת תרגול שתעשה בעצמך לפני שיחת המעקב שלנו) יכולה להשפיע בצורה ממשית ומשמעותית בבעיות ספציפיות.",
+        "במהלך החודש האחרון, כשענית על מספר שאלונים כל יום, ביקשנו ממך לדווח על הרגשות וההתנהגויות שלך, ולציין אם חווית מצוקה כלשהי.",
+        "צוות המחקר עבר על הנתונים שלך; על בסיס הנתונים, הם ציינו שנראה שכשהיית במצוקה כלשהי, הרגשות הבולטים ביותר היו _____ ו ____. זה נשמע לך הגיוני? רגש נוסף שעלה באופן עקבי, אבל היה פחות חזק, היה ____. האם זה נשמע הגיוני? אתה מרגיש אולי שיש לך סוגים אחרים של מצוקה שלא קלטנו? אני שואל, כי אנחנו רוצים לוודא שאנחנו ממקדים את תשומת הלב שלנו ברגשות שהכי בעייתיים עבורך.",
+        "[הרחבה לשיקול המטפלת: לפני שנפנה לחלקים היותר אישיים של המפגש היום, אנו הולכים לכסות את מה שאנו מכנים \"פסיכואדוקציה\". זה מונח מפונפן קצת לאוסף רעיונות שאולי פחות מוכרים לאנשים ללא הכשרה פסיכולוגית, רעיונות שיכולים להיות ממש חזקים - להבנת רגשות שליליים, מחשבות שגורמות מצוקה, והתנהגויות בעייתיות.]",
+        "לעתים קרובות, הבעיות שלנו מופיעות בדמות רגשות שקשה לחוות, מחשבות שמציקות לנו, או הרגלים שהיינו רוצים להפחית או להגביר. אבל מתחת לבעיות האלה, יש הרבה פעמים תחושה שיש איזה צורך רגשי בסיסי, שלא מקבל מענה מספק. אני אגיד משהו שאולי מובן מאליו - אנחנו רואים צרכים כבריאים ביסודם - צרכים מנחים אותנו ועוזרים לנו לתפקד. ברור שלפעמים צרכים מתנגשים זה בזה, ושאי אפשר לספק את כל הצרכים שלנו כל הזמן. ובכל זאת, דרך טובה לעלות על מסלול טוב יותר לעצמינו עוברת דרך זיהוי של צרכים, ודרך ניסיון להבין אילו מהם דורשים כיוונון מסויים כדי שהם יקבלו מענה מלא יותר.",
+        "אולי הדרך הכי טובה להכיר את הצרכים הלא מסופקים שלנו היא לשים לב לרגשות הלכאורה \"שליליים\" שלנו. למרות שאנחנו קוראים להם \"שליליים\", אין בעצם רגשות \"רעים\" - כך שהמילה \"שליליים\" היא סוג של הגדרה לא נכונה.",
+        "בוא נחשוב רגע על כאב פיזי בתור דוגמא: למרות שהוא לא נעים, הוא ממש חשוב להישרדות שלנו. כאב מספק מידע חיוני על הסביבה שלנו, ובלעדיו יש לנו סיכוי נמוך יותר לשרוד.",
+        "[דוגמה לשיקול המטפלת: למשל, אם אני מבשלת, ואני נוגעת בטעות במבער שעל הכיריים שלי, אמשוך במהירות את ידי אחורה בכאב. הכאב עשוי להיות חולף או, אם שרפתי את עצמי מספיק חזק, עלול להימשך שעות או ימים. למרות שזה מבאס במידה מסוימת, הכאב הוא חיוני. בגללו משכתי את ידי מלכתחילה, ובכך צמצמתי את עוצמת הפציעה.]",
+        "רגשות ממלאים את אותו תפקיד. הם מספקים מידע חיוני על מה שקורה סביבנו ואיך זה משפיע עלינו, והם יכולים לעזור לנו לבחור התנהגויות שמקדמות את המטרות שלנו.",
+        "[דוגמה לשיקול המטפלת: פחד הוא הדוגמה שהכי משתמשים בה. אותה גרסה של האבות הקדמונים שלנו שלא ברחה מפני טורף היא לא האב או האם הקדמונים שלנו. פחד גורם לנו להימנע מאיומים. כעס מניע אותנו להתמודד עם תרחישים מאיימים בצורה אחרת.]",
+        "רגשות גם מעבירים מידע לסובבים אותנו. כעס אומר, \"תתרחקו ממני\". עצב מתקשר לאחרים שנפגענו ושאנחנו נזקקים לדאגה או טיפול. בקיצור, רגשות מספקים מידע חיוני גם לעצמנו וגם לאחרים, והם אבולוציוניים במקורם - הם עוזרים לנו לשרוד.",
+        "יחד עם זאת, קורה שהרגשות שלנו מנחים אותנו בכיוון לא נכון - למשל, כשהדברים שאנחנו חוששים מהם לא מהווים איום אמיתי לנו או לגוף שלנו, ואין באמת צורך לברוח מהם. למעשה, הנטייה שלנו לברוח מרגשות שליליים - מה שאנחנו מכנים 'הימנעות' - היא אחת הדרכים \"הטובות\" לשמר את הבעיה כבעיה. הסיבה לכך היא שהימנעות מרגשות שליליים לא מתמודדת עם שורש הבעיה, ולכן בדרך כלל מחמירה אותה, מה שרק מגביר את המצוקה שלנו ומאריך את הסבל שלנו בטווח הארוך יותר.",
+        "דרך טובה בהרבה להתמודד עם רגשות שליליים היא דווקא להכיר אותם יותר טוב, להבין את הגורמים שבבסיסם, ולזהות את האופן שבו הם מפריעים לנו לסיפוק טוב יותר של הצרכים שלנו.",
+        "כדי לעשות את זה, אנחנו צריכים להתחבר לרגשות בכוונה, באמצעות מה שאנו מכנים חשיפות, סוג של תרגול שמאפשר לנו לחוות את הרגשות השליליים שלנו בצורה מבוקרת. אני מאמינה שזה, יחד עם כלים נוספים שנכיר היום, יאפשר לך למצוא מענה טוב יותר לצרכים הרגשיים שלך. ברור שהכלים האלה ידרשו תרגול ותחזוקה: בדיוק כמו כשלומדים נגינה, ספורט, או אמנות כלשהי, שינוי הדרך בה אתה חושב, מרגיש ומתנהג דורש תרגול! לא משנה כמה מועיל יהיה המפגש שלנו היום, סביר להניח שהחלק החשוב ביותר בו יהיה החלק לקראת הסוף, שבו נחשוב יחד איך לעזור לך לאמץ את הרעיונות האלה ולשזור אותם לתוך חיי היומיום האמיתיים שלך."
+      ],
+      "en": [
+        "Our meeting today - and this entire project - are based on the idea that with focused work, even a single intervention meeting (and some follow-up work you'll do on your own before our check-in) can have a substantial, meaningful impact in specific problem areas.",
+        "Over the past month, as you completed several surveys a day, we had asked you to reflect on your feelings and behaviors, and to indicate whether you had any subjective distress.",
+        "The research team has looked at your data; based on the data, they've noted that it seems that when you were distressed, the most prominent emotions were _____ and _____; Does that resonate with you? Another emotion that came across consistently, though somewhat less strongly, was _____. Does that resonate with you? Do you feel that you also have other types of distress that we didn't pick up on? I ask, because we just want to make sure that we focus our attention on the emotions that are most problematic for you.",
+        "[Elaboration for therapist consideration: Before we turn to some of the more personalized content of today's session, we're going to cover what we call 'psychoeducation.' This is a fancy term for a set of ideas that many people without psychological training are unaware of that can be incredibly powerful - for understanding negative emotions, distressing thoughts, and problematic behaviors.]",
+        "Often, our problems take the form of feelings that are hard to experience, thoughts that trouble us, or behaviors we'd like to do more or less of. But underlying many of these problems is often a sense that some basic emotional need isn't fully addressed. Just to state the obvious - we see needs as fundamentally healthy - they guide us and help us function. Now, obviously, some needs may contrast with each other, and it's impossible to have all our needs met all the time. Still, identifying needs and trying to figure out which ones require some tweaking to be met more fully is a very effective way of getting ourselves on track.",
+        "Importantly, the best way to become familiar with our unmet needs is by attending to our so called 'negative' emotions. Though we call them negative, there aren't actually any BAD emotions or feelings, so \"negative\" is sort of the wrong word.",
+        "Consider physical pain: although it's unpleasant, it is incredibly important to our survival. It provides vital information about the environment, and without it we are less likely to survive.",
+        "[Example for therapist consideration: For instance, if I'm cooking and I accidentally touch the burner on my stove, I will quickly pull my hand away in pain. The pain may be fleeting or, if I've burned myself badly enough, may last for hours or days. Although that's unfortunate to some degree, the pain is vital. It's why I pulled my hand away in the first place, limiting the severity of the injury.]",
+        "Emotions serve the same function. They provide vital information about our immediate reactions to the environment and can help us select behaviors that promote our goals.",
+        "[Example for therapist consideration: Fear is the most commonly used example. The version of our ancestor that didn't run away from the predator is not our ancestor. Fear compels us to avoid threats. Anger motivates us to engage with otherwise threatening scenarios.]",
+        "Emotions also transmit information to those around us. Anger says, \"stay away.\" Sadness communicates to others that we've been injured and require tending to. So, emotions provide vital information to ourselves and others, and are evolutionary in their origin - they help us survive.",
+        "However, sometimes our emotions guide us in the wrong direction - the things that we're afraid of aren't actually a threat to our bodily well-being and we don't need to run from them. In fact, our tendency to run away from negative emotions - what we call 'avoidance' - is one of the \"best\" ways to keep a problem problematic. This is because avoiding negative emotions does not deal with the root problem and typically makes it worse, only increasing our distress and prolonging our suffering in the long run.",
+        "A much better way of dealing with negative emotions is to become familiar with them, with their underlying causes, and with how they interfere with getting our needs met.",
+        "To do that, we have to engage with the emotions intentionally, through what we call exposures, a kind of practice that allows us to experience our negative emotions in a controlled manner. Once we do that, we can also introduce additional tools that can help in getting more of your emotional needs met. Of course, these tools will require practice and maintenance: Just like learning an instrument, or an artform, or mastering a sport, changing the way you think, feel, and behave takes practice! So as useful as today's session may be, the most important part of it is likely to be the part towards the end, where we think about how to get you to take on these ideas and weave them into your actual daily life."
+      ]
+    }
+  },
+  "meetingFlow": {
+    "title": {
+      "he": "מבנה המפגש",
+      "en": "Session Flow"
+    },
+    "steps": [
+      {
+        "label": {
+          "he": "מבוא כללי - היכרות, סדר יום והסבר על מבנה הפגישה",
+          "en": "Generic introduction - meeting, agenda, and how the session is structured"
+        },
+        "minutes": 8
+      },
+      {
+        "label": {
+          "he": "פסיכואדוקציה - סקירת הנתונים שלך ורקע על צרכים ורגשות",
+          "en": "Psychoeducation - reviewing your data and the background on needs and emotions"
+        },
+        "minutes": null
+      },
+      {
+        "label": {
+          "he": "הצורך במוקד - דגש על הצורך הבלתי מסופק, רקע דידקטי והגדרת מטרות",
+          "en": "Focal need - highlighting the unmet need, didactic background, and goal setting"
+        },
+        "minutes": null
+      },
+      {
+        "label": {
+          "he": "חלק מרכזי - עבודה עם הכלים הייעודיים למענה על הצורך",
+          "en": "Main phase - working with the tools tailored to meeting the need"
+        },
+        "minutes": null
+      },
+      {
+        "label": {
+          "he": "מטלת בית - סקירת המיומנויות והכנת הקרקע לתרגול עצמאי",
+          "en": "Home practice assignment - reviewing the skills and setting up self-practice"
+        },
+        "minutes": null
+      },
+      {
+        "label": {
+          "he": "קביעת פגישת המעקב",
+          "en": "Scheduling the check-in"
+        },
+        "minutes": null
+      }
+    ]
+  },
+  "checkInGeneral": {
+    "title": {
+      "he": "פגישת מעקב",
+      "en": "Two-week Check-in"
+    },
+    "body": {
+      "he": [
+        "בערב לפני המפגש שולחים למשתתף הודעה בנוסח הבא - \"היי ___ זו ____ מהמחלקה לפסיכולוגיה בבר אילן, כמו שקבענו ניפגש מחר בזום בשעה __ בקישור הבא ___. נתראה\".",
+        "אני ממש שמחה לדבר איתך שוב. רק תזכורת מהירה: הצ'ק-אין היום הולך להיות ממש קצר - בערך 10 דקות - ובדיוק כמו שעשיתי שנפגשנו פנים-אל-פנים, אני הולכת להשתמש בדף הנחיות כזה כדי לוודא שאני לא שוכחת כלום.",
+        "גם את המפגש היום נרצה להקליט לצורך המחקר, אז רק רציתי לעדכן ואני מפעילה את ההקלטה [אחרי אישור מפעילים הקלטה].",
+        "בוא נתחיל בלשאול איך היית אחרי הפגישה שלנו?",
+        "מה הם כמה דברים שנשארו איתך מהפגישה, דברים שלקחת ממנה?",
+        "האם יש משהו שרצית שנחזור עליו - אולי אחת מהמשימות או אחד מהכלים אותם תרגלנו?",
+        "אם זה בסדר איתך, אני אעשה מעבר מהיר על כל מה שעשינו ביחד בפגישה, כמו הסיכום שעשינו בפגישה.",
+        "יופי. אז נסיים באותה הדרך שסיימנו גם בפגישה - בלשאול איך ומתי אתה רואה את עצמך ממשיך להשתמש במיומנויות האלו גם בשבועות הקרובים?",
+        "מעולה. ולפני שנפרדים, יש לך עוד מחשבה או שאלה?",
+        "[אם עולה משהו הקשור למחקר, הקפידי להפנות אותם בחזרה לרכזת המחקר.]"
+      ],
+      "en": [
+        "The evening before the meeting, send the participant a message along these lines - \"Hi ___, this is ____ from the Department of Psychology at Bar-Ilan. As we arranged, we'll meet tomorrow on Zoom at __ using the following link ___. See you.\"",
+        "I'm really glad to talk with you again. Just a quick reminder: today's check-in is going to be really short - about 10 minutes - and just as I did when we met face-to-face, I'm going to use a guidance sheet like this to make sure I don't forget anything.",
+        "We'd also like to record today's meeting for the research, so I just wanted to let you know, and I'm turning on the recording [start recording after consent].",
+        "Let's start by asking how you were after our meeting?",
+        "What are a few things that stayed with you from the meeting, things you took from it?",
+        "Is there anything you wanted us to go over again - maybe one of the tasks or one of the tools we practiced?",
+        "If it's okay with you, I'll do a quick review of everything we did together in the meeting, like the summary we did in the session.",
+        "Great. So we'll finish the same way we also finished the meeting - by asking how and when you see yourself continuing to use these skills in the coming weeks too?",
+        "Wonderful. And before we part, do you have any other thought or question?",
+        "[If something comes up related to the research, be sure to refer them back to the research coordinator.]"
+      ]
+    }
+  },
+  "provenance": {
+    "he": "sourced",
+    "en": "sourced"
+  }
+}
