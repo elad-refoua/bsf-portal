@@ -133,3 +133,4 @@ if
 - 10:37 Run: cd "C:/Users/user/Desktop/projects/BSF portal"
 - 10:38 Run: cd "C:/Users/user/Desktop/projects/BSF portal"
 - 10:38 Edit: .gitignore
+- 10:38 Run: cd "C:/Users/user/Desktop/projects/BSF portal"
