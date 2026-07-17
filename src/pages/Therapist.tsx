@@ -6,7 +6,6 @@ import {
   BookOpen,
   Download,
   FileText,
-  Sparkles,
   type LucideIcon,
 } from "lucide-react";
 import { useLang } from "@/i18n/LanguageContext";
@@ -271,28 +270,6 @@ function GatedArea() {
               </ul>
             </Card>
           </div>
-        </section>
-
-        {/* g. Emotional Balance (UCB extension) note */}
-        <section className="scroll-mt-28">
-          <Card className="border-brand-200 bg-brand-50/50">
-            <div className="flex items-start gap-3">
-              <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-brand-100 text-brand-700">
-                <Sparkles className="h-5 w-5" aria-hidden />
-              </span>
-              <div>
-                <h3 className="font-heading text-lg font-bold text-ink-900">
-                  {t({ he: "איזון רגשי (הרחבת UCB)", en: "Emotional Balance (UCB extension)" })}
-                </h3>
-                <p className="mt-2 text-ink-700">
-                  {t({
-                    he: "“איזון רגשי” הוא תוספת טיוטה באנגלית בלבד מטעם UC-Berkeley, ואינה חלק מהפרוטוקול הסופי בן ששת המודולים. השתמשו בה בשיקול דעת, בנפרד מהפרוטוקול המאושר.",
-                    en: "“Emotional Balance” is an English-only draft addition from UC-Berkeley and is not part of the finalized six-module protocol. Use it at your discretion, separately from the approved protocol.",
-                  })}
-                </p>
-              </div>
-            </div>
-          </Card>
         </section>
       </Section>
     </>

@@ -598,3 +598,6 @@ if
 - 13:10 Edit: Footer.tsx
 - 13:11 Run: cd "C:/Users/user/Desktop/projects/BSF portal"
 - 13:11 Run: cd "C:/Users/user/Desktop/projects/BSF portal/dist
+- 13:13 Read: Therapist.tsx
+- 13:13 Edit: Therapist.tsx
+- 13:13 Edit: Therapist.tsx
