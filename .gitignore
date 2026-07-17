@@ -6,6 +6,11 @@ dist/
 dist-ssr/
 *.local
 
+# tsc composite build artifacts (emitted from vite.config.ts by `tsc -b`)
+*.tsbuildinfo
+vite.config.js
+vite.config.d.ts
+
 # Logs
 logs/
 *.log
